@@ -167,7 +167,7 @@ function FeatureTwo() {
                         })}
                       </div>
                     </div>
-                    <div className="footer invisible">
+                    <div className="footer">
                       <div>
                         <kbd>Esc</kbd>
                         <p>Quit</p>

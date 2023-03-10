@@ -61,8 +61,6 @@ function HeroHome() {
                       value={searchVal}
                       onChange={(e) => setSearchVal(e.target.value)}
                     />
-                    <kbd className="!ml-4">cmd</kbd>
-                    <kbd>/</kbd>
                   </div>
                   <div className="commandWrapper">
                     <div className="nowPlaying">
