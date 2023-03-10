@@ -12,6 +12,7 @@ import { BsKeyboard } from 'react-icons/bs';
 import FeatureOne from './FeatureOne.jsx';
 import FeatureTwo from './FeatureTwo.jsx';
 import FeatureThree from './FeatureThree.jsx';
+import Pricing from './Pricing.jsx';
 
 function Features() {
   return (
@@ -19,6 +20,7 @@ function Features() {
       <FeatureTwo />
       <FeatureOne />
       <FeatureThree />
+      <Pricing />
     </>
   );
 }
