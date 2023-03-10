@@ -18,8 +18,8 @@ function Home() {
           <HeroHome />
           <FeaturesHome />
         </div>
+        <Footer />
       </main>
-      <Footer />
     </>
   );
 }

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../images/logo_sq.png';
+import LogoRect from '../images/logo_rect.svg';
 
 function Header() {
   const [top, setTop] = useState(true);
@@ -20,15 +21,13 @@ function Header() {
         !top && 'bg-white backdrop-blur-sm shadow-lg'
       }`}
     >
-      <div className="max-w-6xl mx-auto px-5 sm:px-6">
+      <div className="max-w-6xl mx-auto px-5 sm:px-6  hidden md:block ">
         <div className="flex items-center justify-between h-16 md:h-20">
-          {/* Site branding */}
-          <div className="flex-shrink-0 mr-4">
-            {/* Logo */}
+          <div className="flex-shrink-0 mr-4  ">
             <Link
               to="/"
               className="block"
-              aria-label="Cruip"
+              aria-label="Harmonize"
             >
               <img
                 src={Logo}
@@ -53,6 +52,23 @@ function Header() {
               </li>
             </ul>
           </nav>
+        </div>
+      </div>
+      <div className="flex justify-center visible md:invisible">
+        <div className="flex items-center justify-between h-16 md:h-20">
+          <div className="flex md:hidden">
+            <Link
+              to="/"
+              className="block"
+              aria-label="Harmonize"
+            >
+              <img
+                src={LogoRect}
+                className="w-[200px]"
+                alt=""
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </header>
