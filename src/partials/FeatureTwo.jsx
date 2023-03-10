@@ -118,7 +118,6 @@ function FeatureTwo() {
                         spellCheck={false}
                         // value={searchVal}
                         // onChange={(e) => setSearchVal(e.target.value)}
-                        autoFocus
                       />
                     </div>
                     <div className="commandWrapper">

@@ -60,7 +60,6 @@ function HeroHome() {
                       spellCheck={false}
                       value={searchVal}
                       onChange={(e) => setSearchVal(e.target.value)}
-                      autoFocus
                     />
                     <kbd className="!ml-4">cmd</kbd>
                     <kbd>/</kbd>
