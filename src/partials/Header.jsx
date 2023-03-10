@@ -54,7 +54,7 @@ function Header() {
           </nav>
         </div>
       </div>
-      <div className="flex justify-center visible md:invisible">
+      <div className="flex justify-center block md:hidden">
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex md:hidden">
             <Link
