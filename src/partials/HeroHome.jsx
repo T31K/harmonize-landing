@@ -32,12 +32,14 @@ function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay="300"
               >
+                {/* className="btn text-white border-2 bg-[#5cbc8b] hover:bg-[#5cbc8b] !capitalize hover:border-[#5cbc8b] w-full font-semibold mb-4 sm:w-auto sm:mb-0 rounded-xl" */}
+
                 <div>
                   <a
-                    className="btn text-white border-2 bg-[#5cbc8b] hover:bg-[#5cbc8b] !capitalize hover:border-[#5cbc8b] w-full font-semibold mb-4 sm:w-auto sm:mb-0 rounded-xl"
+                    className="btn text-white border-2 bg-gray-300 hover:bg-gray-300 !capitalize hover:border-[#5cbc8b] w-full font-semibold mb-4 sm:w-auto sm:mb-0 rounded-xl"
                     href="#0"
                   >
-                    Download for Mac
+                    Coming Soon
                   </a>
                 </div>
               </div>

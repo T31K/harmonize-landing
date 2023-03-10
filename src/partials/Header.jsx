@@ -43,10 +43,10 @@ function Header() {
               <li>
                 <div className="invisible md:visible">
                   <a
-                    className="btn bg-white border-2 border-[#5cbc8b] text-[#5cbc8b] hover:border-[#5cbc8b] hover:bg-white !capitalize font-semibold w-full mb-4 sm:w-auto sm:mb-0 rounded-xl  "
+                    className="btn bg-white border-2 border-gray-300 text-gray-300 hover:border-[#5cbc8b] hover:bg-white !capitalize font-semibold w-full mb-4 sm:w-auto sm:mb-0 rounded-xl  "
                     href="#0"
                   >
-                    Download for Mac
+                    Coming Soon
                   </a>
                 </div>
               </li>
