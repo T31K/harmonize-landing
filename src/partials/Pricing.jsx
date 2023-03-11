@@ -21,7 +21,7 @@ function FeatureOne() {
             <div className="flex justify-center">
               <h1 className="h2 mb-4 mr-[20px] ml-[30px]">Pricing</h1>
               <img
-                src="https://em-content.zobj.net/thumbs/120/apple/325/artist-palette_1f3a8.png"
+                src="https://em-content.zobj.net/thumbs/240/apple/325/money-bag_1f4b0.png"
                 className="w-[50px] h-[50px] "
                 alt=""
               />
