@@ -11,6 +11,7 @@ import AOS from 'aos';
 
 import Home from './pages/Home';
 import Premium from './pages/Premium';
+import Downloads from './pages/Downloads';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
@@ -48,8 +49,8 @@ function App() {
             element={<Premium />}
           />
           <Route
-            path="/signin"
-            element={<SignIn />}
+            path="/beta_download"
+            element={<Downloads />}
           />
           <Route
             path="/signup"

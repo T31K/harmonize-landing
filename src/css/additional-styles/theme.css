@@ -495,6 +495,14 @@ background: rgba(0,0,0,.071);
     margin-bottom: 15px;
 }
 
+.fa-icon {
+    background:#32323219;
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
 .shortcut {
     background: rgba(54, 54, 54, 0.165);
     border-radius: 6px;
