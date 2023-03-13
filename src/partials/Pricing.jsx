@@ -17,7 +17,7 @@ function FeatureOne() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 ">
         <div className="pt-12 md:pt-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center pb-8 md:pb-8">
             <div className="flex justify-center">
               <h1 className="h2 mb-4 mr-[20px] ml-[30px]">Pricing</h1>
               <img
@@ -78,7 +78,7 @@ function FeatureOne() {
                     >
                       <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"></path>
                     </svg>
-                    Search podcasts
+                    Create playlists
                   </li>
                   <li className="inline-flex items-center text-gray-600">
                     <svg
@@ -114,7 +114,11 @@ function FeatureOne() {
               <p className="uppercase text-sm font-medium text-gray-500">Pro</p>
 
               <p className="mt-4 text-3xl text-gray-700 font-medium">
-                $49 <span className="text-base font-normal"></span>
+                <div className="price-wrapper">
+                  <div className="price-slash"></div>
+                  <div className="price">$49</div>
+                </div>
+                <span className="price ml-3">$29</span>
               </p>
 
               <p className="mt-4 font-medium text-gray-700">One time payment</p>
@@ -159,7 +163,7 @@ function FeatureOne() {
                     >
                       <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"></path>
                     </svg>
-                    Search podcasts
+                    Create playlists <span className="bg-gray-200 px-2 rounded-md ml-3">WIP</span>
                   </li>
                   <li className="inline-flex items-center text-gray-600">
                     <svg
@@ -169,7 +173,7 @@ function FeatureOne() {
                     >
                       <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"></path>
                     </svg>
-                    Custom color scheme
+                    Custom color scheme <span className="bg-gray-200 px-2 rounded-md ml-3">WIP</span>
                   </li>
                   <li className="inline-flex items-center text-gray-600">
                     <svg
@@ -185,9 +189,14 @@ function FeatureOne() {
               </div>
 
               <div className="mt-8">
-                <button className="bg-[#5cbc8b] hover:bg-gray-500 px-3 py-2 font-semibold rounded-lg w-full text-white">
-                  Upgrade Now
-                </button>
+                <a
+                  target="_blank"
+                  href="https://buy.stripe.com/5kA2aba86a9eb5e4gh"
+                >
+                  <button className="bg-[#5cbc8b] hover:bg-gray-500 px-3 py-2 font-semibold rounded-lg w-full text-white">
+                    Upgrade Now
+                  </button>
+                </a>
               </div>
             </div>
           </div>

@@ -10,6 +10,7 @@ import './css/style.css';
 import AOS from 'aos';
 
 import Home from './pages/Home';
+import Premium from './pages/Premium';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
@@ -40,6 +41,11 @@ function App() {
             exact
             path="/"
             element={<Home />}
+          />
+          <Route
+            exact
+            path="/premium"
+            element={<Premium />}
           />
           <Route
             path="/signin"
