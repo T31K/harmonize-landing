@@ -19,7 +19,7 @@ function Downloads() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 ">
         <div className="pt-12 md:pt-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-10 md:pb-10 mt-2">
+          <div className="max-w-3xl mx-auto text-center pb-10 md:pb-10 mt-24">
             <div className=" items-center justify-center">
               <h1 className="h2 mb-4 pr-5">Downloads</h1>
             </div>

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Modal from '../utils/Modal';
 
 import HeroImage from '../images/hero-image.png';
+import Contact from './Contact';
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -35,12 +36,10 @@ function HeroHome() {
                 {/* className="btn text-white border-2 bg-[#5cbc8b] hover:bg-[#5cbc8b] !capitalize hover:border-[#5cbc8b] w-full font-semibold mb-4 sm:w-auto sm:mb-0 rounded-xl" */}
 
                 <div>
-                  <a
-                    className="btn text-white border-2 bg-gray-300 hover:bg-gray-300 !capitalize hover:border-[#5cbc8b] w-full font-semibold mb-4 sm:w-auto sm:mb-0 rounded-xl"
-                    href="#0"
-                  >
-                    Coming Soon
-                  </a>
+                  <div className="font-bold text-xl bg-gray-200 text-gray-400 mx-auto mb-5 w-[230px] p-2 rounded-lg ">
+                    Launching Soon!
+                  </div>
+                  <Contact />
                 </div>
               </div>
             </div>

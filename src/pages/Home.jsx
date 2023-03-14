@@ -1,5 +1,4 @@
-import React from 'react';
-
+import { Toaster, toast } from 'sonner';
 import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
 import FeaturesHome from '../partials/Features';
@@ -13,6 +12,10 @@ function Home() {
   return (
     <>
       <main className="flex flex-col min-h-screen overflow-hidden">
+        <Toaster
+          richColors
+          position="top-center"
+        />
         <Header />
         <div className="flex-grow">
           <HeroHome />
