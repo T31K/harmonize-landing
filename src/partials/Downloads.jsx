@@ -33,7 +33,7 @@ function Downloads() {
                 <div className="text-lg font-semibold ml-1">Version 0.1.0-beta</div>
                 <a
                   className="ml-1 mt-4 p-4 border-2 w-[150px] flex justify-center rounded-lg bg-gray-200 font-bold hover:cursor-pointer hover:bg-gray-300"
-                  href="https://github.com/T31K/harmonize-beta-release/raw/master/harmonize_0.1.0-beta.dmg"
+                  href="https://github.com/T31K/harmonize-beta-release/raw/master/harmonize_0.1.0_x64.dmg"
                 >
                   Download
                 </a>
