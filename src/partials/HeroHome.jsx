@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Modal from '../utils/Modal';
+import { Link } from 'react-router-dom';
 
 import HeroImage from '../images/hero-image.png';
 import Contact from './Contact';
@@ -36,9 +37,13 @@ function HeroHome() {
                 {/* className="btn text-white border-2 bg-[#5cbc8b] hover:bg-[#5cbc8b] !capitalize hover:border-[#5cbc8b] w-full font-semibold mb-4 sm:w-auto sm:mb-0 rounded-xl" */}
 
                 <div>
-                  <div className="font-bold text-xl bg-gray-200 text-gray-400 mx-auto mb-5 w-[230px] p-2 rounded-lg ">
-                    Launching Soon!
-                  </div>
+                  <Link
+                    to="/beta_download"
+                    target="_blank"
+                    className="font-bold text-xl bg-green-200 text-gray-700 mx-auto block mb-5 w-[300px] p-2 rounded-lg "
+                  >
+                    Click here for Beta Access!
+                  </Link>
                   <Contact />
                 </div>
               </div>
