@@ -37,7 +37,7 @@ function Downloads() {
             <div className="w-full lg:w-6/12 lg:pr-4">
               <div className="h-[250px] custom-container my-3">
                 <FaApple className="fa-icon"></FaApple>
-                <div className="text-lg font-semibold ml-1">Version {version}</div>
+                <div className="text-lg font-semibold ml-1">Version {version} (beta)</div>
                 <a
                   className="ml-1 mt-4 p-4 border-2 w-[150px] flex justify-center rounded-lg bg-gray-200 font-bold hover:cursor-pointer hover:bg-gray-300"
                   href={

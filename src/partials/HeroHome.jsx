@@ -41,9 +41,9 @@ function HeroHome() {
                     to="/beta_download"
                     className="font-bold text-xl bg-green-200 text-gray-700 mx-auto block mb-5 w-[300px] p-2 rounded-lg "
                   >
-                    Click here for Beta Access!
+                    Download now 
                   </Link>
-                  <Contact />
+                  {/* <Contact /> */}
                 </div>
               </div>
             </div>
