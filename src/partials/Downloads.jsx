@@ -44,20 +44,10 @@ function Downloads() {
                     href={
                       isLoading
                         ? '#'
-                        : `https://github.com/T31K/harmonize/releases/download/${version}/harmonize_${version}_x64.dmg`
+                        : `https://github.com/T31K/harmonize/releases/download/${version}/harmonize_${version}_universal.dmg`
                     }
                   >
-                    Download (Intel)
-                  </a>
-                  <a
-                    className="ml-1 mt-4 p-4 border-2 w-[50%] flex justify-center rounded-lg bg-gray-200 font-bold hover:cursor-pointer hover:bg-gray-300"
-                    href={
-                      isLoading
-                        ? '#'
-                        : `https://github.com/T31K/harmonize/releases/download/${version}-arm64/harmonize_${version}_aarch64.dmg`
-                    }
-                  >
-                    Download (Apple Silicon)
+                    Download
                   </a>
                 </div>
               </div>
