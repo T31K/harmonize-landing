@@ -37,17 +37,29 @@ function Downloads() {
             <div className="w-full lg:w-6/12 lg:pr-4">
               <div className="h-[250px] custom-container my-3">
                 <FaApple className="fa-icon"></FaApple>
-                <div className="text-lg font-semibold ml-1">Version {version} (beta)</div>
-                <a
-                  className="ml-1 mt-4 p-4 border-2 w-[150px] flex justify-center rounded-lg bg-gray-200 font-bold hover:cursor-pointer hover:bg-gray-300"
-                  href={
-                    isLoading
-                      ? '#'
-                      : `https://github.com/T31K/harmonize/releases/download/${version}/harmonize_1.0.5_x64.dmg`
-                  }
-                >
-                  Download
-                </a>
+                <div className="text-lg  font-semibold ml-1">Version {version} (beta)</div>
+                <div className="flex">
+                  <a
+                    className="ml-1 mt-4 p-4 border-2 w-[50%] flex justify-center rounded-lg bg-gray-200 font-bold hover:cursor-pointer hover:bg-gray-300"
+                    href={
+                      isLoading
+                        ? '#'
+                        : `https://github.com/T31K/harmonize/releases/download/${version}/harmonize_${version}_x64.dmg`
+                    }
+                  >
+                    Download (Intel)
+                  </a>
+                  <a
+                    className="ml-1 mt-4 p-4 border-2 w-[50%] flex justify-center rounded-lg bg-gray-200 font-bold hover:cursor-pointer hover:bg-gray-300"
+                    href={
+                      isLoading
+                        ? '#'
+                        : `https://github.com/T31K/harmonize/releases/download/${version}-arm64/harmonize_${version}_aarch64.dmg`
+                    }
+                  >
+                    Download (Apple Silicon)
+                  </a>
+                </div>
               </div>
             </div>
 
