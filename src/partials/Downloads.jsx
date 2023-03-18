@@ -1,27 +1,26 @@
-import React, { useState, , useEffect } from 'react';
-import axios from 'axios'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import { FaApple, FaLinux } from 'react-icons/fa';
 
-
 function Downloads() {
-  const [version, setVersion] = useState("")
-  const [isLoading, setIsLoading] = useState(true)
-  
+  const [version, setVersion] = useState('');
+  const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
     getLatestVersion();
-  }, [])
-  
+  }, []);
+
   const getLatestVersion = async () => {
     try {
       const response = await axios.get(`https://api.github.com/repos/t31k/harmonize/releases/latest`);
       const latestRelease = response.data;
       const latestVersion = latestRelease.tag_name;
-      setVersion(latestVersion)
-      setIsLoading(false)
+      setVersion(latestVersion);
+      setIsLoading(false);
     } catch (error) {
       console.error(error);
     }
-  }
+  };
   return (
     <section className="relative pb-[100px]">
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 ">
@@ -41,8 +40,12 @@ function Downloads() {
                 <div className="text-lg font-semibold ml-1">Version {version}</div>
                 <a
                   className="ml-1 mt-4 p-4 border-2 w-[150px] flex justify-center rounded-lg bg-gray-200 font-bold hover:cursor-pointer hover:bg-gray-300"
-                  href={isLoading ? '#' : `https://github.com/T31K/harmonize/releases/download/${version}/harmonize_1.0.5_x64.dmg`}
-                  >
+                  href={
+                    isLoading
+                      ? '#'
+                      : `https://github.com/T31K/harmonize/releases/download/${version}/harmonize_1.0.5_x64.dmg`
+                  }
+                >
                   Download
                 </a>
               </div>
