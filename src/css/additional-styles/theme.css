@@ -474,6 +474,17 @@ section::before {
     padding: 25px;
 }
 
+.custom-container-alt {
+    border-radius: 20px;
+    padding: 25px;
+    background:#fafafa;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    white-space: nowrap;
+}
 
 .cta {
 background: rgba(0,0,0,.071);

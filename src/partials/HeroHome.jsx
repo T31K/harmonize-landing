@@ -71,11 +71,11 @@ function HeroHome() {
               <div className="mt-5 font-medium flex items-center justify-center ">
                 <span className="font-medium flex items-center mr-3">
                   37 Downloads
-                  <MdDownloadForOffline className="text-xl" />
+                  <MdDownloadForOffline className="text-xl ml-1" />
                 </span>
                 <span className="font-medium flex items-center">
                   9 Subscribers
-                  <MdRocketLaunch className="text-xl" />
+                  <MdRocketLaunch className="text-xl m;-1" />
                 </span>
               </div>
             </div>
