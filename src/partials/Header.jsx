@@ -41,13 +41,38 @@ function Header() {
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
-                <div className="invisible md:visible">
-                  <a
-                    className="btn bg-white border-2 border-gray-300 text-gray-300 hover:border-[#5cbc8b] hover:bg-white !capitalize font-semibold w-full mb-4 sm:w-auto sm:mb-0 rounded-xl  "
-                    href="#0"
+                <div className="invisible md:visible pl-5">
+                  <Link
+                    class="group relative inline-flex items-center overflow-hidden rounded-2xl py-4 pr-5 pl-[3.25rem] text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 bg-opacity-5 hidden dark:hidden sm:flex"
+                    to="/beta_download"
                   >
-                    Coming Soon
-                  </a>
+                    <div class="ease absolute left-5 translate-x-0 opacity-100 transition duration-300 group-hover:-translate-x-full group-hover:opacity-0">
+                      <svg
+                        class="h-6 w-6 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                      >
+                        <path d="M19.37 7.648c-.114.088-2.11 1.213-2.11 3.715 0 2.894 2.54 3.918 2.616 3.944-.011.062-.403 1.402-1.34 2.767-.834 1.201-1.706 2.4-3.032 2.4s-1.667-.77-3.198-.77c-1.492 0-2.022.796-3.235.796-1.214 0-2.06-1.112-3.033-2.477C4.911 16.42 4 13.93 4 11.566c0-3.791 2.465-5.802 4.891-5.802 1.29 0 2.364.847 3.173.847.77 0 1.972-.897 3.438-.897.556 0 2.553.05 3.867 1.934Zm-4.564-3.54c.607-.719 1.036-1.718 1.036-2.716 0-.138-.012-.279-.037-.392-.987.037-2.161.657-2.87 1.478-.555.632-1.074 1.63-1.074 2.643 0 .152.026.304.037.353.063.011.164.025.266.025.885 0 1.998-.593 2.642-1.39Z"></path>
+                      </svg>
+                    </div>
+                    <div class="ease translate-x-0 transition duration-300 group-hover:-translate-x-8">
+                      Download for Mac
+                    </div>
+                    <div class="ease absolute right-5 translate-x-full opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">
+                      <svg
+                        class="h-6 w-6 stroke-current stroke-2"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        aria-hidden="true"
+                      >
+                        <path d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+                      </svg>
+                    </div>
+                  </Link>
                 </div>
               </li>
             </ul>

@@ -1,11 +1,11 @@
 export const tabs = [
   {
-    buttons: ['tab'],
-    text: 'Go down',
+    buttons: ['▲'],
+    text: 'Go up',
   },
   {
-    buttons: ['shift', 'tab'],
-    text: 'Go up',
+    buttons: ['▼'],
+    text: 'Go down',
   },
   {
     buttons: ['enter'],
@@ -17,15 +17,11 @@ export const tabs = [
     text: 'Queue song',
   },
   {
-    buttons: ['⌘', 'j'],
+    buttons: ['⌘', '◀'],
     text: 'Previous',
   },
   {
-    buttons: ['⌘', 'k'],
-    text: 'Play/pause',
-  },
-  {
-    buttons: ['⌘', 'l'],
+    buttons: ['⌘', '▶'],
     text: 'Next',
   },
 ];

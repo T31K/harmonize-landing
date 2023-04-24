@@ -1,16 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-import FeaturesBg from '../images/features-bg.png';
-import FeaturesElement from '../images/features-element.png';
-
-import { FaRust } from 'react-icons/fa';
-import { SiElectron } from 'react-icons/si';
-import { FiPackage } from 'react-icons/fi';
-import { BsKeyboard } from 'react-icons/bs';
-
 import { items } from '../utils/items.js';
 import { tabs } from '../utils/tabs.js';
+import { BsFillMouse3Fill } from 'react-icons/bs';
 
 import IconBase from './IconBase';
 
@@ -26,10 +19,11 @@ function FeatureTwo() {
   const handleAction = (key) => {
     switch (key) {
       case 0:
-        setActiveIndex((prevActiveIndex) => (prevActiveIndex < 20 ? prevActiveIndex + 1 : 20));
+        setActiveIndex((prevActiveIndex) => (prevActiveIndex > 0 ? prevActiveIndex - 1 : 0));
         break;
       case 1:
-        setActiveIndex((prevActiveIndex) => (prevActiveIndex > 0 ? prevActiveIndex - 1 : 0));
+        setActiveIndex((prevActiveIndex) => (prevActiveIndex < 20 ? prevActiveIndex + 1 : 20));
+        break;
       case 2:
         setCurrentTrack(items[key]);
       default:
@@ -53,32 +47,19 @@ function FeatureTwo() {
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+            <BsFillMouse3Fill className="text-7xl inline-block text-center mb-3" />
+
             <div className="flex justify-center items-center">
-              <h1 className="h2 mb-4 ml-[60px]">
-                Fluid controls.
-                <br />
-                Seamless productivity.
-              </h1>
-              <img
-                src="https://em-content.zobj.net/thumbs/240/apple/325/droplet_1f4a7.png"
-                alt=""
-                className="block w-[60px] h-[60px]"
-              />
+              <h1 className="h2 mb-4">Say goodbye to the mouse</h1>
             </div>
-            <p className="text-xl text-gray-600">
-              Effortlessly control and utilize every feature <br />
-              without ever having to reach for your mouse.
-            </p>
+            <p className="text-xl text-gray-600">Because moving your hand to the mouse is just too much work</p>
           </div>
 
           <div className="flex flex-wrap">
             <div className="w-full lg:w-4/12 lg:pr-4">
               <div className=" custom-container my-3 h-[630px]">
-                <IconBase src="https://em-content.zobj.net/thumbs/120/apple/325/computer-mouse_1f5b1-fe0f.png"></IconBase>
-                <div className="text-lg font-semibold ml-1">No mouse? No problem.</div>
-                <p className="ml-1 mt-4">
-                  Minimize your finger movement, with keyboard shortcuts that are intelligently mapped to every button.
-                </p>
+                <div className="text-2xl font-bold">Shortcuts</div>
+                <p>Click to try them out!</p>
                 <div className="pl-1 mt-5">
                   {tabs.map((obj, key) => {
                     return (
@@ -91,7 +72,7 @@ function FeatureTwo() {
                           {obj.buttons.map((kb, kbIndex) => {
                             return (
                               <kbd
-                                className="kbd kbd-md"
+                                className="kbd kbd-md mr-1"
                                 key={kbIndex}
                               >
                                 {kb}
