@@ -29,7 +29,8 @@ function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                A beautifully designed app for music at your fingertips <br /> from anywhere, at anytime.
+                A beautifully designed app <br className="sm:hidden" /> for music at your fingertips <br /> from
+                anywhere, at anytime.
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
@@ -68,8 +69,8 @@ function HeroHome() {
                   </div>
                 </Link>
               </div>
-              <div className="mt-5 font-medium flex items-center justify-center ">
-                <span className="font-medium flex items-center mr-3">
+              <div className="mt-5 font-medium flex items-center justify-center mb-4 sm:mb-0">
+                <span className="font-medium flex items-center mr-3 ">
                   37 Downloads
                   <MdDownloadForOffline className="text-xl " />
                 </span>

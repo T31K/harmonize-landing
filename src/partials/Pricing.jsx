@@ -198,7 +198,7 @@ function Pricing() {
               </div>
             </div>
           </div>
-          <div className="my-3 pt-5">
+          <div className="my-3 pt-5 custom-container sm:custom-container-alt">
             <p className="font-medium my-2">
               Please note that our premium features are standalone and not directly related to the Spotify API.
             </p>
