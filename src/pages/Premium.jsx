@@ -8,7 +8,7 @@ import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
 import Banner from '../partials/Banner';
-import Pricing from '../partials/Pricing';
+import Premiums from './Premiums';
 
 function Premium() {
   return (
@@ -16,7 +16,7 @@ function Premium() {
       <main className="flex flex-col min-h-screen overflow-hidden">
         <Header />
         <div className="flex-grow">
-          <Pricing />
+          <Premiums />
         </div>
         <Footer />
       </main>
