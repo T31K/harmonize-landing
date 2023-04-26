@@ -12,7 +12,6 @@ section::before {
     background-repeat: repeat;
     background-size: cover;
     transform: rotate(45deg);
-    background-image: url('../../images/grid.svg');
     background-size: 100px 100px;
     opacity: 4%;
     z-index: -1;
