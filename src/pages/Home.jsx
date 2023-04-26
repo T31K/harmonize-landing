@@ -7,6 +7,8 @@ import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
 import Banner from '../partials/Banner';
+import { MdRocketLaunch } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -22,6 +24,14 @@ function Home() {
           <FeaturesHome />
         </div>
         <Footer />
+
+        <Link to="/premium">
+          <div className="fixed-button  bg-green-100">
+            <MdRocketLaunch className="text-center mb-3 mr-3" />
+            <div class="text-lg font-medium mr-3">Click here for Launch Event</div>
+            <MdRocketLaunch className="text-center mb-3" />
+          </div>
+        </Link>
       </main>
     </>
   );

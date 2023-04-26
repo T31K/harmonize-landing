@@ -1,7 +1,9 @@
 import Header from '../partials/Header';
 import Footer from '../partials/Footer';
 import '../css/pricing-table.css';
-
+import { BsCheckCircleFill } from 'react-icons/bs';
+import { IoMdCloseCircle } from 'react-icons/io';
+import { MdRocketLaunch } from 'react-icons/md';
 function Premium() {
   return (
     <>
@@ -11,15 +13,18 @@ function Premium() {
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-10 md:pb-10 mt-24">
               <div className=" items-center justify-center">
-                <h1 className="h2 mb-4 pr-5 text-5xl">Launch Event</h1>
+                <MdRocketLaunch className="text-7xl inline-block text-center mb-3" />
+
+                <h1 className="h2 mb-2 pr-5 text-5xl">Launch Event</h1>
               </div>
               <p className="text-xl text-gray-600"></p>
             </div>
 
+            <p className="mb-2 text-xl font-medium">$29</p>
             <div className="flex justify-center gap-2 mb-[50px]">
               <p className="text-xl font">$0</p>
-              <div className="bar w-[50%] bg-gray-300 rounded-lg h-[30px]">
-                <div className="bar w-[30%] bg-green-300  h-[30px] "></div>
+              <div className="bar w-[50%] bg-gray-300  h-[30px]">
+                <div className="progress w-[30%] bg-green-300  h-[30px] "></div>
               </div>
               <p className="text-xl font-bold">$500</p>
             </div>
@@ -33,8 +38,8 @@ function Premium() {
               </p>
             </div>
           </div>
-          <div className="flex-grow py-5">
-            <div className="main rounded-2xl border-2">
+          <div className="flex-grow">
+            <div className="main rounded-2xl border-2 !mt-[40px]">
               <table className="price-table rounded-2xl">
                 <tbody>
                   <tr>
@@ -47,7 +52,7 @@ function Premium() {
                     <td></td>
                     <td>Free</td>
                     <td>Premium</td>
-                    <td className="green-width">Pro</td>
+                    <td>Custom</td>
                   </tr>
                   <tr>
                     <td></td>
@@ -55,19 +60,19 @@ function Premium() {
                       <br />
                       Free
                       <br />
-                      <a href="#">Get started</a>
+                      <a className="invisible">Get started</a>
                     </td>
                     <td className="price">
                       <br />
                       $49
                       <br />
-                      <a href="#">Get started</a>
+                      <a>Upgrade Now</a>
                     </td>
                     <td className="price">
                       <br />
-                      $199
+                      $399
                       <br />
-                      <a href="#">Get started</a>
+                      <a className="invisible">Get started</a>
                     </td>
                   </tr>
                   <tr>
@@ -80,9 +85,21 @@ function Premium() {
                       </a>{' '}
                       Search tracks
                     </td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
+                    <td>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>{' '}
+                    </td>
+                    <td>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>{' '}
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -94,9 +111,21 @@ function Premium() {
                       </a>{' '}
                       View song queue
                     </td>
-                    <td>30 Days</td>
-                    <td>90 Days</td>
-                    <td>180 Days</td>
+                    <td>
+                      <p className="text-error-200">
+                        <IoMdCloseCircle className="text-center text-lg " />
+                      </p>{' '}
+                    </td>
+                    <td>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>{' '}
+                    </td>
+                    <td>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>{' '}
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -106,16 +135,22 @@ function Premium() {
                       >
                         <i className="far fa-fw fa-question-circle"></i>
                       </a>{' '}
-                      Chart Annotations
+                      Playback seeking
                     </td>
                     <td>
-                      <i className="fas fa-times"></i>
+                      <p className="text-error-200">
+                        <IoMdCloseCircle className="text-center text-lg " />
+                      </p>{' '}
                     </td>
                     <td>
-                      <i className="fas fa-check"></i>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>{' '}
                     </td>
                     <td>
-                      <i className="fas fa-check"></i>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>{' '}
                     </td>
                   </tr>
                   <tr>
@@ -126,16 +161,22 @@ function Premium() {
                       >
                         <i className="far fa-fw fa-question-circle"></i>
                       </a>{' '}
-                      Uptime Monitoring
+                      Control volume
                     </td>
                     <td>
-                      <i className="fas fa-times"></i>
+                      <p className="text-error-200">
+                        <IoMdCloseCircle className="text-center text-lg " />
+                      </p>{' '}
                     </td>
                     <td>
-                      <i className="fas fa-check"></i>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>{' '}
                     </td>
                     <td>
-                      <i className="fas fa-check"></i>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>{' '}
                     </td>
                   </tr>
                   <tr>
@@ -146,36 +187,22 @@ function Premium() {
                       >
                         <i className="far fa-fw fa-question-circle"></i>
                       </a>{' '}
-                      Playback seeking{' '}
+                      Custom color scheme
                     </td>
                     <td>
-                      <i className="fas fa-times"></i>
+                      <p className="text-error-200">
+                        <IoMdCloseCircle className="text-center text-lg " />
+                      </p>{' '}
                     </td>
                     <td>
-                      <i className="fas fa-check"></i>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>{' '}
                     </td>
                     <td>
-                      <i className="fas fa-check"></i>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <a
-                        href="#wordpress-security-audit"
-                        className="price-table-help"
-                      >
-                        <i className="far fa-fw fa-question-circle"></i>
-                      </a>{' '}
-                      Security Audit
-                    </td>
-                    <td>
-                      <i className="fas fa-times"></i>
-                    </td>
-                    <td>
-                      <i className="fas fa-check"></i>
-                    </td>
-                    <td>
-                      <i className="fas fa-check"></i>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>{' '}
                     </td>
                   </tr>
                   <tr>
@@ -186,16 +213,48 @@ function Premium() {
                       >
                         <i className="far fa-fw fa-question-circle"></i>
                       </a>{' '}
-                      On-Demand Audit
+                      Vibrancy mode
                     </td>
                     <td>
-                      <i className="fas fa-times"></i>
+                      <p className="text-error-200">
+                        <IoMdCloseCircle className="text-center text-lg " />
+                      </p>{' '}
                     </td>
                     <td>
-                      <i className="fas fa-times"></i>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>{' '}
                     </td>
                     <td>
-                      <i className="fas fa-check"></i>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>{' '}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <a
+                        href="#wordpress-security-audit"
+                        className="price-table-help"
+                      >
+                        <i className="far fa-fw fa-question-circle"></i>
+                      </a>{' '}
+                      Daily listening trend
+                    </td>
+                    <td>
+                      <p className="text-error-200">
+                        <IoMdCloseCircle className="text-center text-lg " />
+                      </p>{' '}
+                    </td>
+                    <td>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>{' '}
+                    </td>
+                    <td>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>{' '}
                     </td>
                   </tr>
                   <tr>
@@ -206,17 +265,11 @@ function Premium() {
                       >
                         <i className="far fa-fw fa-question-circle"></i>
                       </a>{' '}
-                      Priority Support
+                      Requests
                     </td>
-                    <td>
-                      <i className="fas fa-times"></i>
-                    </td>
-                    <td>
-                      <i className="fas fa-times"></i>
-                    </td>
-                    <td>
-                      <i className="fas fa-check"></i>
-                    </td>
+                    <td>Slows down if high requests</td>
+                    <td>Unlimited</td>
+                    <td>Unlimited</td>
                   </tr>
                   <tr>
                     <td>
@@ -226,32 +279,115 @@ function Premium() {
                       >
                         <i className="far fa-fw fa-question-circle"></i>
                       </a>{' '}
-                      Easy Billing + No Contracts
+                      Multi device support
                     </td>
                     <td>
-                      <i className="fas fa-check"></i>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>{' '}
                     </td>
                     <td>
-                      <i className="fas fa-check"></i>
-                    </td>
-                    <td>
-                      <i className="fas fa-check"></i>
+                      <p>
+                        <BsCheckCircleFill className="text-center" />
+                      </p>{' '}
                     </td>
                   </tr>
                   <tr>
                     <td></td>
                     <td className="price">
-                      <a href="#">Get started</a>
+                      <a
+                        href="#"
+                        className="invisible"
+                      >
+                        Get started
+                      </a>
                     </td>
                     <td className="price">
-                      <a href="#">Get started</a>
+                      <a href="#">Upgrade Now</a>
                     </td>
                     <td className="price">
-                      <a href="#">Get started</a>
+                      <a
+                        href="#"
+                        className="invisible"
+                      >
+                        Get started
+                      </a>
                     </td>
                   </tr>
                 </tbody>
               </table>
+            </div>
+            <h3 className="text-center mt-5 text-2xl font-bold"> Checkout via</h3>
+
+            <div className="flex items-center justify-center py-5 gap-2">
+              <a
+                href="/beta_download"
+                className="group relative inline-flex items-center overflow-hidden rounded-2xl bg-[#4f3bf8] py-4 px-5 text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 text-orange-50 shadow-2xl shadow-stone-800/30"
+              >
+                <div className="ease absolute left-5 translate-x-0 opacity-100 transition duration-300 group-hover:-translate-x-full group-hover:opacity-0"></div>
+                <div className="ease translate-x-0 transition duration-300 ">Stripe Checkout</div>
+                <div className="ease absolute right-5 translate-x-full opacity-0 transition duration-300 0">
+                  <svg
+                    className="h-6 w-6 stroke-current stroke-2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+                  </svg>
+                </div>
+              </a>
+              <a
+                href="/beta_download"
+                className="group relative inline-flex items-center overflow-hidden rounded-2xl bg-[#f0ac26] py-4 px-5 text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 text-orange-50 shadow-2xl shadow-stone-800/30"
+              >
+                <div className="ease absolute left-5 translate-x-0 opacity-100 transition duration-300 group-hover:-translate-x-full group-hover:opacity-0"></div>
+                <div className="ease translate-x-0 transition duration-300 ">Lemon Squeezy</div>
+                <div className="ease absolute right-5 translate-x-full opacity-0 transition duration-300 0">
+                  <svg
+                    className="h-6 w-6 stroke-current stroke-2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+                  </svg>
+                </div>
+              </a>
+            </div>
+
+            <h3 className="text-center mt-5 text-2xl font-bold"> Useful Links</h3>
+            <div className="flex flex-col justify-center text-center items-center gap-3 pt-5">
+              <a
+                href=""
+                className="w-[200px] bg-green-200 px-2 py-3 rounded-lg font-semibold"
+              >
+                Product Hunt
+              </a>
+              <a
+                href=""
+                className="w-[200px] bg-green-200 px-2 py-3 rounded-lg font-semibold"
+              >
+                r/SideProjects
+              </a>
+              <a
+                href=""
+                className="w-[200px] bg-green-200 px-2 py-3 rounded-lg font-semibold"
+              >
+                r/TrueSpotify
+              </a>
+              <a
+                href=""
+                className="w-[200px] bg-green-200 px-2 py-3 rounded-lg font-semibold"
+              >
+                IndieHackers.com
+              </a>
             </div>
           </div>
         </div>

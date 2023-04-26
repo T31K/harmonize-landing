@@ -637,3 +637,31 @@ span.green {
   .price{ font-size: 30px;}
  
   
+  .bar {
+    border-radius: 8px;
+  }
+
+  .progress {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  
+  .fixed-button {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    z-index: 999;
+
+  }
+
+  
+  .fixed-button svg {
+    margin-bottom: 0;
+  }
