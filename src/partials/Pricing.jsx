@@ -1,5 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
-
+import { Link } from 'react-router-dom';
 function Pricing() {
   return (
     <section className="relative pb-[100px]">
@@ -198,20 +197,15 @@ function Pricing() {
               </div>
             </div>
           </div>
-          <div className="my-3 pt-5 custom-container sm:custom-container-alt">
-            <p className="font-medium my-2">
-              Please note that our premium features are standalone and not directly related to the Spotify API.
-            </p>
-            <p className="font-medium my-2">
-              Our premium features do not involve any interaction with the Spotify API or Spotify's servers, the premium
-              fees go directly towards keeping our servers and database up and running, and improving the overall
-              functionality and reliability of our app.
-            </p>
-            <p className="font-medium my-2">
-              We are committed to ensuring that our app and premium features are fully compliant with Spotify's
-              Developer Terms of Use, and that they provide a seamless and secure music control experience for our
-              users.
-            </p>
+          <div className="flex">
+            <Link
+              className="group relative inline-flex mx-auto items-center bg-green-300 overflow-hidden rounded-2xl py-4 px-5 mt-5 text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-gray-800 -5 hidden dark:hidden sm:flex"
+              to="/premium"
+            >
+              <div className="ease absolute left-5 translate-x-0 opacity-100 transition duration-300"></div>
+              <div className="ease translate-x-0 transition duration-300">See All Features </div>
+              <div className="ease absolute right-5 translate-x-full opacity-0 transition duration-300 "></div>
+            </Link>
           </div>
         </div>
       </div>

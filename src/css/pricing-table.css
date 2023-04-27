@@ -91,6 +91,12 @@
   fill: #5cbc8b;
 }
 
+.price-table svg.nope{
+  width: 90px;
+  fill: #fd5555;
+}
+
+
 
 p {
   display: flex;

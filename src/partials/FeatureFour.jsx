@@ -22,7 +22,7 @@ function FeatureThree() {
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <MdScience className="text-7xl inline-block text-center mb-3" />
+            <MdScience className="text-7xl hover:text-green-300 inline-block text-center mb-3" />
             <div className="flex items-center justify-center">
               <h1 className="h2 mb-4">Feature-Packed</h1>
             </div>
@@ -32,56 +32,56 @@ function FeatureThree() {
           <div className="flex flex-wrap">
             <div className="w-full lg:w-3/12 lg:pr-4">
               <div className="h-[300px] custom-container-alt my-3">
-                <SiRust className="text-8xl inline-block text-center mb-3 text-center" />
+                <SiRust className="text-7xl hover:text-green-300 inline-block text-center mb-3 text-center" />
                 <div className="text-2xl text-center font-semibold ml-1">Backed by Rust</div>
               </div>
             </div>
 
             <div className="w-full lg:w-3/12 lg:pr-4">
               <div className="h-[300px] custom-container-alt my-3">
-                <TbRadioactiveFilled className="text-8xl inline-block text-center mb-3 text-center" />
+                <TbRadioactiveFilled className="text-7xl hover:text-green-300 inline-block text-center mb-3 text-center" />
                 <div className="text-2xl text-center font-semibold ml-1">Bye, Electron!</div>
               </div>
             </div>
 
             <div className="w-full lg:w-3/12 lg:pr-4">
               <div className="h-[300px] custom-container-alt my-3">
-                <TbPackageOff className="text-8xl inline-block text-center mb-3 text-center" />
+                <TbPackageOff className="text-7xl hover:text-green-300 inline-block text-center mb-3 text-center" />
                 <div className="text-2xl text-center font-semibold ml-1">Minimal Dependency</div>
               </div>
             </div>
 
             <div className="w-full lg:w-3/12 lg:pr-4">
               <div className="h-[300px] custom-container-alt my-3">
-                <BsFillHddStackFill className="text-8xl inline-block text-center mb-3 text-center" />
+                <BsFillHddStackFill className="text-7xl hover:text-green-300 inline-block text-center mb-3 text-center" />
                 <div className="text-2xl text-center font-semibold ml-1">Menubar Resident</div>
               </div>
             </div>
 
             <div className="w-full lg:w-3/12 lg:pr-4">
               <div className="h-[300px] custom-container-alt my-3">
-                <BsKeyboardFill className="text-8xl inline-block text-center mb-3 text-center" />
+                <BsKeyboardFill className="text-7xl hover:text-green-300 inline-block text-center mb-3 text-center" />
                 <div className="text-2xl text-center font-semibold ml-1">Keyboard Wizardry</div>
               </div>
             </div>
 
             <div className="w-full lg:w-3/12 lg:pr-4">
               <div className="h-[300px] custom-container-alt my-3">
-                <BsFillLightningChargeFill className="text-8xl inline-block text-center mb-3 text-center" />
+                <BsFillLightningChargeFill className="text-7xl hover:text-green-300 inline-block text-center mb-3 text-center" />
                 <div className="text-2xl text-center font-semibold ml-1">Blazing Fast</div>
               </div>
             </div>
 
             <div className="w-full lg:w-3/12 lg:pr-4">
               <div className="h-[300px] custom-container-alt my-3">
-                <BsPaletteFill className="text-8xl inline-block text-center mb-3 text-center" />
+                <BsPaletteFill className="text-7xl hover:text-green-300 inline-block text-center mb-3 text-center" />
                 <div className="text-2xl text-center font-semibold ml-1">Beautifully Crafted</div>
               </div>
             </div>
 
             <div className="w-full lg:w-3/12 lg:pr-4">
               <div className="h-[300px] custom-container-alt my-3">
-                <BsFillChatHeartFill className="text-8xl inline-block text-center mb-3 text-center" />
+                <BsFillChatHeartFill className="text-7xl hover:text-green-300 inline-block text-center mb-3 text-center" />
                 <div className="text-2xl text-center font-semibold ml-1">Passion Project</div>
               </div>
             </div>

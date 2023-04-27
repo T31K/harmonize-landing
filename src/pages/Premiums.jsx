@@ -38,6 +38,7 @@ function Premium() {
               </p>
             </div>
           </div>
+
           <div className="flex-grow">
             <div className="main rounded-2xl border-2 !mt-[40px]">
               <table className="price-table rounded-2xl">
@@ -112,8 +113,8 @@ function Premium() {
                       View song queue
                     </td>
                     <td>
-                      <p className="text-error-200">
-                        <IoMdCloseCircle className="text-center text-lg " />
+                      <p className="fill-current text-error-200">
+                        <IoMdCloseCircle className="text-center text-lg nope" />
                       </p>{' '}
                     </td>
                     <td>
@@ -139,7 +140,7 @@ function Premium() {
                     </td>
                     <td>
                       <p className="text-error-200">
-                        <IoMdCloseCircle className="text-center text-lg " />
+                        <IoMdCloseCircle className="text-center text-lg nope" />
                       </p>{' '}
                     </td>
                     <td>
@@ -165,7 +166,7 @@ function Premium() {
                     </td>
                     <td>
                       <p className="text-error-200">
-                        <IoMdCloseCircle className="text-center text-lg " />
+                        <IoMdCloseCircle className="text-center text-lg nope" />
                       </p>{' '}
                     </td>
                     <td>
@@ -191,7 +192,7 @@ function Premium() {
                     </td>
                     <td>
                       <p className="text-error-200">
-                        <IoMdCloseCircle className="text-center text-lg " />
+                        <IoMdCloseCircle className="text-center text-lg nope" />
                       </p>{' '}
                     </td>
                     <td>
@@ -217,7 +218,7 @@ function Premium() {
                     </td>
                     <td>
                       <p className="text-error-200">
-                        <IoMdCloseCircle className="text-center text-lg " />
+                        <IoMdCloseCircle className="text-center text-lg nope" />
                       </p>{' '}
                     </td>
                     <td>
@@ -243,7 +244,7 @@ function Premium() {
                     </td>
                     <td>
                       <p className="text-error-200">
-                        <IoMdCloseCircle className="text-center text-lg " />
+                        <IoMdCloseCircle className="text-center text-lg nope" />
                       </p>{' '}
                     </td>
                     <td>
@@ -316,6 +317,16 @@ function Premium() {
                   </tr>
                 </tbody>
               </table>
+            </div>
+            <div className="flex-grow p-2 font-medium my-5">
+              Please note that our premium features are standalone and not directly related to the Spotify API. <br />
+              <br />
+              Our premium features do not involve any interaction with the Spotify API or Spotify's servers, the premium
+              fees go directly towards keeping our servers and database up and running, and improving the overall
+              functionality and reliability of our app.
+              <br />
+              <br /> We are committed to ensuring that our app and premium features are fully compliant with Spotify's
+              Developer Terms of Use, and that they provide a seamless and secure music control experience for our users
             </div>
             <h3 className="text-center mt-5 text-2xl font-bold"> Checkout via</h3>
 
