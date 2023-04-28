@@ -20,13 +20,13 @@ function Premium() {
               <p className="text-xl text-gray-600"></p>
             </div>
 
-            <p className="mb-2 text-xl font-medium">$29</p>
+            <p className="mb-2 text-3xl font-medium">$29</p>
             <div className="flex justify-center gap-2 mb-[50px]">
               <p className="text-xl font">$0</p>
               <div className="bar w-[50%] bg-gray-300  h-[30px]">
-                <div className="progress w-[30%] bg-green-300  h-[30px] "></div>
+                <div className="progress w-[10%] bg-green-300  h-[30px] "></div>
               </div>
-              <p className="text-xl font-bold">$500</p>
+              <p className="text-xl font-medium">$500</p>
             </div>
             <div className="pt-5 flex flex-col -start ">
               <p className="text-md font-medium my-1 text-center">
