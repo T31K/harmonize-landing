@@ -1,9 +1,8 @@
-import Header from '../partials/Header';
-import Footer from '../partials/Footer';
 import '../css/pricing-table.css';
 import { BsCheckCircleFill } from 'react-icons/bs';
 import { IoMdCloseCircle } from 'react-icons/io';
 import { MdRocketLaunch } from 'react-icons/md';
+import SafeLink from '../images/safe_link.png';
 function Premium() {
   return (
     <>
@@ -64,10 +63,31 @@ function Premium() {
                       <a className="invisible">Get started</a>
                     </td>
                     <td className="price">
+                      <p className="!text-sm">One Time Payment</p>
                       <br />
                       $49
                       <br />
-                      <a>Upgrade Now</a>
+                      <a
+                        href="https://buy.stripe.com/5kA2aba86a9eb5e4gh"
+                        target="_blank"
+                        className="group relative inline-flex items-center overflow-hidden !rounded-2xl !bg-green-400 py-4 px-5 text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 text-orange-50 shadow-2xl shadow-stone-800/30"
+                      >
+                        <div className="ease absolute left-5 translate-x-0 opacity-100 transition duration-300 group-hover:-translate-x-full group-hover:opacity-0"></div>
+                        <div className="ease translate-x-0 transition duration-300 ">Upgrade Now </div>
+                        <div className="ease absolute right-5 translate-x-full opacity-0 transition duration-300 0">
+                          <svg
+                            className="h-6 w-6 stroke-current stroke-2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            aria-hidden="true"
+                          >
+                            <path d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+                          </svg>
+                        </div>
+                      </a>
                     </td>
                     <td className="price">
                       <br />
@@ -96,11 +116,7 @@ function Premium() {
                         <BsCheckCircleFill className="text-center" />
                       </p>{' '}
                     </td>
-                    <td>
-                      <p>
-                        <BsCheckCircleFill className="text-center" />
-                      </p>{' '}
-                    </td>
+                    <td></td>
                   </tr>
                   <tr>
                     <td>
@@ -122,11 +138,7 @@ function Premium() {
                         <BsCheckCircleFill className="text-center" />
                       </p>{' '}
                     </td>
-                    <td>
-                      <p>
-                        <BsCheckCircleFill className="text-center" />
-                      </p>{' '}
-                    </td>
+                    <td></td>
                   </tr>
                   <tr>
                     <td>
@@ -148,11 +160,7 @@ function Premium() {
                         <BsCheckCircleFill className="text-center" />
                       </p>{' '}
                     </td>
-                    <td>
-                      <p>
-                        <BsCheckCircleFill className="text-center" />
-                      </p>{' '}
-                    </td>
+                    <td></td>
                   </tr>
                   <tr>
                     <td>
@@ -174,11 +182,7 @@ function Premium() {
                         <BsCheckCircleFill className="text-center" />
                       </p>{' '}
                     </td>
-                    <td>
-                      <p>
-                        <BsCheckCircleFill className="text-center" />
-                      </p>{' '}
-                    </td>
+                    <td></td>
                   </tr>
                   <tr>
                     <td>
@@ -200,11 +204,7 @@ function Premium() {
                         <BsCheckCircleFill className="text-center" />
                       </p>{' '}
                     </td>
-                    <td>
-                      <p>
-                        <BsCheckCircleFill className="text-center" />
-                      </p>{' '}
-                    </td>
+                    <td></td>
                   </tr>
                   <tr>
                     <td>
@@ -226,11 +226,7 @@ function Premium() {
                         <BsCheckCircleFill className="text-center" />
                       </p>{' '}
                     </td>
-                    <td>
-                      <p>
-                        <BsCheckCircleFill className="text-center" />
-                      </p>{' '}
-                    </td>
+                    <td></td>
                   </tr>
                   <tr>
                     <td>
@@ -252,11 +248,7 @@ function Premium() {
                         <BsCheckCircleFill className="text-center" />
                       </p>{' '}
                     </td>
-                    <td>
-                      <p>
-                        <BsCheckCircleFill className="text-center" />
-                      </p>{' '}
-                    </td>
+                    <td></td>
                   </tr>
                   <tr>
                     <td>
@@ -270,7 +262,7 @@ function Premium() {
                     </td>
                     <td>Slows down if high requests</td>
                     <td>Unlimited</td>
-                    <td>Unlimited</td>
+                    <td></td>
                   </tr>
                   <tr>
                     <td>
@@ -292,6 +284,7 @@ function Premium() {
                         <BsCheckCircleFill className="text-center" />
                       </p>{' '}
                     </td>
+                    <td></td>
                   </tr>
                   <tr>
                     <td></td>
@@ -304,7 +297,27 @@ function Premium() {
                       </a>
                     </td>
                     <td className="price">
-                      <a href="#">Upgrade Now</a>
+                      <a
+                        href="https://buy.stripe.com/5kA2aba86a9eb5e4gh"
+                        target="_blank"
+                        className="group relative inline-flex items-center overflow-hidden !rounded-2xl !bg-green-400 py-4 px-5 text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 text-orange-50 shadow-2xl shadow-stone-800/30"
+                      >
+                        <div className="ease absolute left-5 translate-x-0 opacity-100 transition duration-300 group-hover:-translate-x-full group-hover:opacity-0"></div>
+                        <div className="ease translate-x-0 transition duration-300 ">Upgrade Now </div>
+                        <div className="ease absolute right-5 translate-x-full opacity-0 transition duration-300 0">
+                          <svg
+                            className="h-6 w-6 stroke-current stroke-2"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            aria-hidden="true"
+                          >
+                            <path d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+                          </svg>
+                        </div>
+                      </a>{' '}
                     </td>
                     <td className="price">
                       <a
@@ -332,8 +345,9 @@ function Premium() {
 
             <div className="flex items-center justify-center py-5 gap-2">
               <a
-                href="/beta_download"
-                className="group relative inline-flex items-center overflow-hidden rounded-2xl bg-[#4f3bf8] py-4 px-5 text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 text-orange-50 shadow-2xl shadow-stone-800/30"
+                href="https://buy.stripe.com/5kA2aba86a9eb5e4gh"
+                target="_blank"
+                className="group relative inline-flex items-center overflow-hidden rounded-2xl !bg-[#4f3bf8] py-4 px-5 text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 text-orange-50 shadow-2xl shadow-stone-800/30"
               >
                 <div className="ease absolute left-5 translate-x-0 opacity-100 transition duration-300 group-hover:-translate-x-full group-hover:opacity-0"></div>
                 <div className="ease translate-x-0 transition duration-300 ">Stripe Checkout</div>
@@ -352,8 +366,9 @@ function Premium() {
                 </div>
               </a>
               <a
-                href="/beta_download"
-                className="group relative inline-flex items-center overflow-hidden rounded-2xl bg-[#f0ac26] py-4 px-5 text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 text-orange-50 shadow-2xl shadow-stone-800/30"
+                href="https://buy.stripe.com/5kA2aba86a9eb5e4gh"
+                target="_blank"
+                className="group relative inline-flex items-center overflow-hidden rounded-2xl !bg-[#f0ac26] py-4 px-5 text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 text-orange-50 shadow-2xl shadow-stone-800/30"
               >
                 <div className="ease absolute left-5 translate-x-0 opacity-100 transition duration-300 group-hover:-translate-x-full group-hover:opacity-0"></div>
                 <div className="ease translate-x-0 transition duration-300 ">Lemon Squeezy</div>
@@ -372,7 +387,12 @@ function Premium() {
                 </div>
               </a>
             </div>
-
+            <h3 className="text-center mt-5 text-2xl font-bold"> Ensure link is secured</h3>
+            <img
+              src={SafeLink}
+              className="mx-auto block w-[400px] bg-[#f1f0f0] p-4 rounded-2xl"
+              alt=""
+            />
             <h3 className="text-center mt-5 text-2xl font-bold"> Useful Links</h3>
             <div className="flex flex-col justify-center text-center items-center gap-3 pt-5">
               <a
