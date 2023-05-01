@@ -8,7 +8,7 @@ function Pricing() {
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-8 md:pb-8">
-            <MdScience className="text-7xl hover:text-green-300 inline-block text-center mb-3" />
+            <FaMoneyBillWave className="text-7xl hover:text-green-300 inline-block text-center mb-3" />
             <div className="flex justify-center">
               <h1 className="h2 mb-4">Pricing</h1>
             </div>
