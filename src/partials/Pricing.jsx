@@ -7,11 +7,7 @@ function Pricing() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-8 md:pb-8">
             <div className="flex justify-center">
-              <h1 className="h2 mb-4 mr-[20px] ml-[30px]">Pricing</h1>
-              <img
-                src="https://em-content.zobj.net/thumbs/240/apple/325/money-bag_1f4b0.png"
-                className="w-[50px] h-[50px] "
-                alt=""
+              <h1 className="h2 mb-4">Pricing</h1>
               />
             </div>
           </div>
