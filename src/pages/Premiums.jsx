@@ -345,8 +345,8 @@ function Premium() {
 
             <div className="flex items-center justify-center py-5 gap-2">
               <a
-                href="https://harmonize.lemonsqueezy.com/checkout/buy/5dacf4c1-f987-433a-bfea-4d9227bee55d?media=0"
                 target="_blank"
+                href="https://buy.stripe.com/5kA2aba86a9eb5e4gh"
                 className="group relative inline-flex items-center overflow-hidden rounded-2xl !bg-[#4f3bf8] py-4 px-5 text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 text-orange-50 shadow-2xl shadow-stone-800/30"
               >
                 <div className="ease absolute left-5 translate-x-0 opacity-100 transition duration-300 group-hover:-translate-x-full group-hover:opacity-0"></div>
@@ -366,7 +366,7 @@ function Premium() {
                 </div>
               </a>
               <a
-                href="https://buy.stripe.com/5kA2aba86a9eb5e4gh"
+                href="https://harmonize.lemonsqueezy.com/checkout/buy/5dacf4c1-f987-433a-bfea-4d9227bee55d?media=0"
                 target="_blank"
                 className="group relative inline-flex items-center overflow-hidden rounded-2xl !bg-[#f0ac26] py-4 px-5 text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 text-orange-50 shadow-2xl shadow-stone-800/30"
               >
