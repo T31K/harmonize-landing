@@ -158,7 +158,7 @@ function Premium() {
                     <td>
                       <p>
                         <BsCheckCircleFill className="text-center" />
-                      </p>{' '}
+                      </p>
                     </td>
                     <td></td>
                   </tr>
@@ -317,7 +317,7 @@ function Premium() {
                             <path d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
                           </svg>
                         </div>
-                      </a>{' '}
+                      </a>
                     </td>
                     <td className="price">
                       <a
