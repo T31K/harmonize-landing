@@ -341,7 +341,7 @@ function Premium() {
               <br /> We are committed to ensuring that our app and premium features are fully compliant with Spotify's
               Developer Terms of Use, and that they provide a seamless and secure music control experience for our users
             </div>
-            <h3 className="text-center mt-5 text-2xl font-bold"> Checkout via</h3>
+            <h3 className="text-center mt-5 text-2xl font-bold"> Checkout via:</h3>
 
             <div className="flex items-center justify-center py-5 gap-2">
               <a
