@@ -417,6 +417,12 @@ function Premium() {
                 href=""
                 className="w-[200px] bg-green-200 px-2 py-3 rounded-lg font-semibold"
               >
+                r/Spotify
+              </a>
+              <a
+                href=""
+                className="w-[200px] bg-green-200 px-2 py-3 rounded-lg font-semibold"
+              >
                 IndieHackers.com
               </a>
             </div>
