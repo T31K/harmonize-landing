@@ -3,7 +3,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 
 import { EmojiProvider, Emoji } from 'react-apple-emojis';
 import emojiData from 'react-apple-emojis/src/data.json';
-import { Analytics } from '@vercel/analytics/react';
+
 import 'aos/dist/aos.css';
 import './css/style.css';
 
@@ -61,7 +61,6 @@ function App() {
             element={<ResetPassword />}
           />
         </Routes>
-        <Analytics />
       </EmojiProvider>
     </>
   );
