@@ -14,6 +14,7 @@ import FeatureTwo from './FeatureTwo.jsx';
 import FeatureThree from './FeatureThree.jsx';
 import FeatureFour from './FeatureFour.jsx';
 import Pricing from './Pricing.jsx';
+import Contact from './Contact.jsx';
 
 function Features() {
   return (
@@ -23,6 +24,7 @@ function Features() {
       <FeatureThree />
       <FeatureFour />
       <Pricing />
+      <Contact />
     </>
   );
 }
