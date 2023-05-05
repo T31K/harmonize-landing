@@ -44,7 +44,7 @@ function Header() {
                 <div className="invisible md:visible pl-5">
                   <Link
                     className="group relative inline-flex items-center overflow-hidden rounded-2xl py-4 pr-5 pl-[3.25rem] text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 bg-opacity-5 hidden dark:hidden sm:flex"
-                    to="/beta_download"
+                    to="/download"
                   >
                     <div className="ease absolute left-5 translate-x-0 opacity-100 transition duration-300 group-hover:-translate-x-full group-hover:opacity-0">
                       <svg
