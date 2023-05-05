@@ -49,7 +49,7 @@ function App() {
             element={<Premium />}
           />
           <Route
-            path="/beta_download"
+            path="/download"
             element={<Downloads />}
           />
           <Route
