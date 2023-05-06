@@ -69,7 +69,7 @@ function HeroHome() {
                   </div>
                 </Link>
               </div>
-              <div className="mt-5 font-medium flex items-center justify-center mb-4 sm:mb-0">
+              <div className="mt-5 font-medium flex items-center justify-center mb-4 sm:mb-0 hidden">
                 <span className="font-medium flex items-center mr-3 ">
                   37 Downloads
                   <MdDownloadForOffline className="text-xl " />
