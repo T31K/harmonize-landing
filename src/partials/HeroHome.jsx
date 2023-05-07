@@ -18,7 +18,7 @@ function HeroHome() {
             className="flex mx-auto justify-center mb-2"
           >
             <img
-              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=391767&theme=neutral"
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=391767&theme=light"
               alt="Harmonize - A&#0032;spotlight&#0045;like&#0032;app&#0032;to&#0032;control&#0032;your&#0032;Spotify&#0032;music | Product Hunt"
               style={{ width: '250px', height: '54px' }}
               width="250"
