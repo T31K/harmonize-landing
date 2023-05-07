@@ -12,6 +12,19 @@ function HeroHome() {
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+          <a
+            href="https://www.producthunt.com/posts/harmonize?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-harmonize"
+            target="_blank"
+            className="flex mx-auto justify-center mb-2"
+          >
+            <img
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=391767&theme=neutral"
+              alt="Harmonize - A&#0032;spotlight&#0045;like&#0032;app&#0032;to&#0032;control&#0032;your&#0032;Spotify&#0032;music | Product Hunt"
+              style={{ width: '250px', height: '54px' }}
+              width="250"
+              height="54"
+            />
+          </a>
           <div className="text-center md:pb-16">
             <h1
               className="text-5xl md:text-6xl !text-gray-900 font-bold leading-tighter tracking-tighter mb-4"
