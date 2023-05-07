@@ -28,7 +28,7 @@ function Home() {
         <Link to="/premium">
           <div className="fixed-button  bg-green-100">
             <MdRocketLaunch className="text-center mb-3 mr-3" />
-            <div class="text-lg font-medium mr-3">We're launching on Product Hunt today (30% off)</div>
+            <div class="text-sm font-medium mr-3">Product Hunt Launch (30% off)</div>
             <MdRocketLaunch className="text-center mb-3" />
           </div>
         </Link>

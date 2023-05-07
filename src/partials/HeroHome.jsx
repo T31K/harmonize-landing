@@ -52,7 +52,7 @@ function HeroHome() {
               >
                 <Link
                   to="/download"
-                  className="group relative inline-flex items-center overflow-hidden rounded-2xl hover:bg-[#1baa6b] py-4 pr-5 pl-[3.25rem] text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 text-orange-50 shadow-2xl shadow-stone-800/30"
+                  className="group relative inline-flex items-center overflow-hidden rounded-2xl hover:bg-[#1baa6b] py-4 pr-5 pl-[3.25rem] text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 text-orange-50 shadow-2xl shadow-stone-800/30 mb-5 md:mb-0"
                 >
                   <div className="ease absolute left-5 translate-x-0 opacity-100 transition duration-300 group-hover:-translate-x-full group-hover:opacity-0">
                     <svg
