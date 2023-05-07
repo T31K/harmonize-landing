@@ -396,7 +396,8 @@ function Premium() {
             <h3 className="text-center mt-5 text-2xl font-bold"> Useful Links</h3>
             <div className="flex flex-col justify-center text-center items-center gap-3 pt-5">
               <a
-                href=""
+                href="https://www.producthunt.com/posts/harmonize"
+                target="_blank"
                 className="w-[200px] bg-green-200 px-2 py-3 rounded-lg font-semibold"
               >
                 Product Hunt
