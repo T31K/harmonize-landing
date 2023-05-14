@@ -110,7 +110,7 @@ function Pricing() {
               <p className="mt-4 text-3xl text-gray-700 font-medium">
                 <div className="price-wrapper">
                   {/* <div className="price-slash"></div> */}
-                  <div className="price font-bold">$49</div>
+                  <div className="price font-bold">$29</div>
                 </div>
                 {/* <span className="price ml-3">$29</span> */}
               </p>

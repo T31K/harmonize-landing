@@ -65,7 +65,7 @@ function Premium() {
                     <td className="price">
                       <p className="!text-sm">One Time Payment</p>
                       <br />
-                      $49
+                      $29
                       <br />
                       <a
                         href="https://buy.stripe.com/5kA2aba86a9eb5e4gh"

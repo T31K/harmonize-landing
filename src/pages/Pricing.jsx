@@ -33,7 +33,7 @@ function Premium() {
                   </td>
                   <td className="price">
                     <br />
-                    $49
+                    $29
                     <br />
                     <a href="#">Get started</a>
                   </td>
