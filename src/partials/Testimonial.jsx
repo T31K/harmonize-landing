@@ -35,55 +35,6 @@ function Testimonial() {
             <div className="w-full">
               <Senja />
             </div>
-
-            <div className="w-full lg:w-3/12 lg:pr-4">
-              <div className="h-[300px] custom-container-alt my-3">
-                <TbRadioactiveFilled className="text-7xl hover:text-green-300 inline-block text-center mb-3 text-center" />
-                <div className="text-2xl text-center font-semibold ml-1">Bye, Electron!</div>
-              </div>
-            </div>
-
-            <div className="w-full lg:w-3/12 lg:pr-4">
-              <div className="h-[300px] custom-container-alt my-3">
-                <TbPackageOff className="text-7xl hover:text-green-300 inline-block text-center mb-3 text-center" />
-                <div className="text-2xl text-center font-semibold ml-1">Minimal Dependency</div>
-              </div>
-            </div>
-
-            <div className="w-full lg:w-3/12 lg:pr-4">
-              <div className="h-[300px] custom-container-alt my-3">
-                <BsFillHddStackFill className="text-7xl hover:text-green-300 inline-block text-center mb-3 text-center" />
-                <div className="text-2xl text-center font-semibold ml-1">Menubar Resident</div>
-              </div>
-            </div>
-
-            <div className="w-full lg:w-3/12 lg:pr-4">
-              <div className="h-[300px] custom-container-alt my-3">
-                <BsKeyboardFill className="text-7xl hover:text-green-300 inline-block text-center mb-3 text-center" />
-                <div className="text-2xl text-center font-semibold ml-1">Keyboard Wizardry</div>
-              </div>
-            </div>
-
-            <div className="w-full lg:w-3/12 lg:pr-4">
-              <div className="h-[300px] custom-container-alt my-3">
-                <BsFillLightningChargeFill className="text-7xl hover:text-green-300 inline-block text-center mb-3 text-center" />
-                <div className="text-2xl text-center font-semibold ml-1">Blazing Fast</div>
-              </div>
-            </div>
-
-            <div className="w-full lg:w-3/12 lg:pr-4">
-              <div className="h-[300px] custom-container-alt my-3">
-                <BsPaletteFill className="text-7xl hover:text-green-300 inline-block text-center mb-3 text-center" />
-                <div className="text-2xl text-center font-semibold ml-1">Beautifully Crafted</div>
-              </div>
-            </div>
-
-            <div className="w-full lg:w-3/12 lg:pr-4">
-              <div className="h-[300px] custom-container-alt my-3">
-                <BsFillChatHeartFill className="text-7xl hover:text-green-300 inline-block text-center mb-3 text-center" />
-                <div className="text-2xl text-center font-semibold ml-1">Passion Project</div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
