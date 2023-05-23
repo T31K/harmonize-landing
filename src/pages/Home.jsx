@@ -24,14 +24,6 @@ function Home() {
           <FeaturesHome />
         </div>
         <Footer />
-
-        <Link to="/premium">
-          <div className="fixed-button  bg-green-100">
-            <MdRocketLaunch className="text-center mb-3 mr-3" />
-            <div class="text-sm font-medium mr-3">Product Hunt Launch (30% off)</div>
-            <MdRocketLaunch className="text-center mb-3" />
-          </div>
-        </Link>
       </main>
     </>
   );

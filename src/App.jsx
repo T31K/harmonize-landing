@@ -12,6 +12,8 @@ import AOS from 'aos';
 import Home from './pages/Home';
 import Premium from './pages/Premium';
 import Downloads from './pages/Downloads';
+import Privacy from './pages/Privacy';
+import Refund from './pages/Refund';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
@@ -51,6 +53,14 @@ function App() {
           <Route
             path="/download"
             element={<Downloads />}
+          />
+          <Route
+            path="/privacy"
+            element={<Privacy />}
+          />
+          <Route
+            path="/refund"
+            element={<Refund />}
           />
           <Route
             path="/signup"
