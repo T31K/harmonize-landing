@@ -65,7 +65,6 @@ function Footer() {
               <li class="mb-4">
                 <Link
                   to="/refund"
-                  target="_blank"
                   class="hover:text-green-500"
                 >
                   Refund Policy

@@ -102,7 +102,7 @@ function Privacy() {
                     <div className="font-semibold">5. Information Sharing: </div>
                     <div>
                       The App does not share or sell personal information with any third parties, except as required by
-                      law or with the user's explicit consent. Children's Privacy:
+                      law or with the user's explicit consent.
                     </div>
                   </div>
                 </div>

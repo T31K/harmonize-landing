@@ -94,14 +94,7 @@ function Refund() {
                     <div className="font-semibold">8. Contact Us:</div>
                     <div>
                       If you have any questions or need further assistance regarding refunds, please contact our support
-                      team at [contact email address].
-                    </div>
-                  </div>
-                  <div className="flex flex-col gap-3 mt-5">
-                    <div className="font-semibold">9. Agreement:</div>
-                    <div>
-                      By using the App and requesting a refund, you acknowledge that you have read and understood this
-                      Refund Policy and agree to its terms and conditions.
+                      team at contact@getharmonize.app
                     </div>
                   </div>
                 </div>
