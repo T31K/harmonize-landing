@@ -13,6 +13,7 @@ import FeatureOne from './FeatureOne.jsx';
 import FeatureTwo from './FeatureTwo.jsx';
 import FeatureThree from './FeatureThree.jsx';
 import FeatureFour from './FeatureFour.jsx';
+import FAQ from './FAQ.jsx';
 import Testimonial from './Testimonial.jsx';
 import Pricing from './Pricing.jsx';
 import Contact from './Contact.jsx';
@@ -25,6 +26,7 @@ function Features() {
       <FeatureThree />
       <FeatureFour />
       <Testimonial />
+      <FAQ />
       <Pricing />
       <Contact />
     </>
