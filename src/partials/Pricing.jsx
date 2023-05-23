@@ -188,7 +188,7 @@ function Pricing() {
                   target="_blank"
                   href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
                 >
-                  <button className="bg-[#5cbc8b] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl  w-[150px] text-white">
+                  <button className="bg-[#5cbc8b] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl  w-[160px] text-white">
                     Upgrade Now
                   </button>
                 </a>
