@@ -95,7 +95,7 @@ function Pricing() {
               <div className="mt-8">
                 <a
                   target="_blank"
-                  href="https://buy.stripe.com/5kA2aba86a9eb5e4gh"
+                  href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
                 >
                   <button className="bg-gray-500 hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl  w-[150px] text-white">
                     Free To Use
@@ -186,7 +186,7 @@ function Pricing() {
               <div className="mt-8">
                 <a
                   target="_blank"
-                  href="https://buy.stripe.com/5kA2aba86a9eb5e4gh"
+                  href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
                 >
                   <button className="bg-[#5cbc8b] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl  w-[150px] text-white">
                     Upgrade Now

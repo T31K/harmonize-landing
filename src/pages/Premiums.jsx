@@ -68,7 +68,7 @@ function Premium() {
                       $29
                       <br />
                       <a
-                        href="https://buy.stripe.com/5kA2aba86a9eb5e4gh"
+                        href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
                         target="_blank"
                         className="group relative inline-flex items-center overflow-hidden !rounded-2xl !bg-green-400 py-4 px-5 text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 text-orange-50 shadow-2xl shadow-stone-800/30"
                       >
@@ -298,7 +298,7 @@ function Premium() {
                     </td>
                     <td className="price">
                       <a
-                        href="https://buy.stripe.com/5kA2aba86a9eb5e4gh"
+                        href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
                         target="_blank"
                         className="group relative inline-flex items-center overflow-hidden !rounded-2xl !bg-green-400 py-4 px-5 text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 text-orange-50 shadow-2xl shadow-stone-800/30"
                       >
@@ -346,7 +346,7 @@ function Premium() {
             <div className="flex items-center justify-center py-5 gap-2">
               <a
                 target="_blank"
-                href="https://buy.stripe.com/5kA2aba86a9eb5e4gh"
+                href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
                 className="group relative inline-flex items-center overflow-hidden rounded-2xl !bg-[#4f3bf8] py-4 px-5 text-lg font-bold outline-none transition duration-300 focus:ring-[0.1875rem] focus:ring-purple-400 bg-stone-800 text-orange-50 shadow-2xl shadow-stone-800/30"
               >
                 <div className="ease absolute left-5 translate-x-0 opacity-100 transition duration-300 group-hover:-translate-x-full group-hover:opacity-0"></div>
