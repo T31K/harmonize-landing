@@ -102,15 +102,24 @@ function Pricing() {
                 </ul>
               </div>
 
-              <div className="mt-8">
-                <a
-                  target="_blank"
-                  href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
-                >
-                  <button className="bg-[#5cbc8b] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl  w-[160px] text-white">
-                    Upgrade Now
-                  </button>
-                </a>
+              <div className="mt-8 invisible">
+                <div className="text-gray-700 font-semibold text-center mt-5 mb-3">Upgrade Now</div>
+                <div className="flex gap-1">
+                  <a
+                    target="_blank"
+                    href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
+                    className="bg-[#4f3bf8] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl flex items-center whitespace-nowrap !text-sm text-center w-[100%] text-white justify-center"
+                  >
+                    Stripe
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
+                    className="bg-[#f0ac26] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl flex items-center whitespace-nowrap !text-sm text-center w-[100%] text-white justify-center"
+                  >
+                    Lemon Squeezy
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -197,15 +206,24 @@ function Pricing() {
                 </ul>
               </div>
 
-              <div className="mt-8">
-                <a
-                  target="_blank"
-                  href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
-                >
-                  <button className="bg-[#5cbc8b] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl  w-[160px] text-white">
-                    Upgrade Now
-                  </button>
-                </a>
+              <div className="mt-8 ">
+                <div className="text-gray-700 font-semibold text-center mt-5 mb-3">Upgrade Now</div>
+                <div className="flex gap-1">
+                  <a
+                    target="_blank"
+                    href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
+                    className="bg-[#4f3bf8] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl flex items-center whitespace-nowrap !text-sm text-center w-[100%] text-white justify-center"
+                  >
+                    Stripe
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
+                    className="bg-[#f0ac26] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl flex items-center whitespace-nowrap !text-sm text-center w-[100%] text-white justify-center"
+                  >
+                    Lemon Squeezy
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -312,15 +330,24 @@ function Pricing() {
                   </ul>
                 </div>
 
-                <div className="mt-8">
-                  <a
-                    target="_blank"
-                    href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
-                  >
-                    <button className="bg-[#5cbc8b] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl  w-[160px] text-white">
-                      Upgrade Now
-                    </button>
-                  </a>
+                <div className="mt-8 invisble ">
+                  <div className="text-gray-700 font-semibold text-center mt-5 mb-3">Upgrade Now</div>
+                  <div className="flex gap-1">
+                    <a
+                      target="_blank"
+                      href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
+                      className="bg-[#4f3bf8] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl flex items-center whitespace-nowrap !text-sm text-center w-[100%] text-white justify-center"
+                    >
+                      Stripe
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
+                      className="bg-[#f0ac26] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl flex items-center whitespace-nowrap !text-sm text-center w-[100%] text-white justify-center"
+                    >
+                      Lemon Squeezy
+                    </a>
+                  </div>
                 </div>
               </div>
             ) : (
@@ -405,15 +432,24 @@ function Pricing() {
                   </ul>
                 </div>
 
-                <div className="mt-8">
-                  <a
-                    target="_blank"
-                    href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
-                  >
-                    <button className="bg-[#5cbc8b] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl  w-[160px] text-white">
-                      Upgrade Now
-                    </button>
-                  </a>
+                <div className="mt-8 ">
+                  <div className="text-gray-700 font-semibold text-center mt-5 mb-3">Upgrade Now</div>
+                  <div className="flex gap-1">
+                    <a
+                      target="_blank"
+                      href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
+                      className="bg-[#4f3bf8] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl flex items-center whitespace-nowrap !text-sm text-center w-[100%] text-white justify-center"
+                    >
+                      Stripe
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
+                      className="bg-[#f0ac26] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl flex items-center whitespace-nowrap !text-sm text-center w-[100%] text-white justify-center"
+                    >
+                      Lemon Squeezy
+                    </a>
+                  </div>
                 </div>
               </div>
             )}
