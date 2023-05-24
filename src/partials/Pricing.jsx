@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { FaMoneyBillWave } from 'react-icons/fa';
-
+import Check from './Check.jsx';
 function Pricing() {
   return (
     <section className="relative pb-[100px]">
@@ -15,79 +15,85 @@ function Pricing() {
           </div>
 
           <div className="w-full md:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto">
-            <div className=" custom-container opacity-[80%] ">
-              <p className="uppercase text-sm font-medium text-gray-500">Basic</p>
+            <div className="custom-container opacity-[85%]">
+              <p className="uppercase text-sm font-medium text-gray-400">Pro</p>
 
-              <p className="mt-4 text-3xl text-gray-700 font-medium">
+              <p className="mt-4 text-4xl text-gray-500 font-medium">
                 <div className="price-wrapper">
-                  <div className="price font-bold">Free</div>
+                  {/* <div className="price-slash"></div> */}
+                  <div className="price text-4xl font-bold">$0</div>
                 </div>
+                {/* <span className="price ml-3">$29</span> */}
               </p>
 
-              <p className="mt-4 font-medium text-gray-700 invisible">One time payment</p>
+              <p className="mt-4 font-medium text-gray-600">Free to use</p>
 
               <div className="mt-8">
                 <ul className="grid grid-cols-1 gap-4">
+                  <li className="inline-flex items-center text-gray-700 font-semibold">General Controls</li>
                   <li className="inline-flex items-center text-gray-600">
-                    <svg
-                      className="w-4 h-4 mr-2 fill-current text-green-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
-                      <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"></path>
-                    </svg>
-                    Search tracks
-                  </li>
-
-                  <li className="inline-flex items-center text-gray-600">
-                    <svg
-                      className="w-4 h-4 mr-2 fill-current text-gray-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
-                      <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"></path>
-                    </svg>
-                    View song queue <span className="bg-gray-200 px-2 rounded-md ml-3">WIP</span>
+                    <Check />
+                    Play/pause track
                   </li>
                   <li className="inline-flex items-center text-gray-600">
-                    <svg
-                      className="w-4 h-4 mr-2 fill-current text-gray-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
-                      <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"></path>
-                    </svg>
-                    Playback seeking <span className="bg-gray-200 px-2 rounded-md ml-3">WIP</span>
+                    <Check />
+                    Previous/next track
                   </li>
                   <li className="inline-flex items-center text-gray-600">
-                    <svg
-                      className="w-4 h-4 mr-2 fill-current text-gray-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
-                      <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"></path>
-                    </svg>
-                    Control volume <span className="bg-gray-200 px-2 rounded-md ml-3">WIP</span>
+                    <Check />
+                    Toggle shuffle/repeat
                   </li>
                   <li className="inline-flex items-center text-gray-600">
-                    <svg
-                      className="w-4 h-4 mr-2 fill-current text-gray-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
-                      <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"></path>
-                    </svg>
-                    Custom color scheme <span className="bg-gray-200 px-2 rounded-md ml-3">WIP</span>
+                    <Check />
+                    Start Radio
                   </li>
                   <li className="inline-flex items-center text-gray-600">
-                    <svg
-                      className="w-4 h-4 mr-2 fill-current text-yellow-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
-                      <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"></path>
-                    </svg>
-                    Slows down if high requests
+                    <Check />
+                    Like current song
+                  </li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check disable />
+                    Song change notification
+                  </li>
+                  <li className="inline-flex items-center text-gray-700 font-semibold mt-2">Queue tab</li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check disable />
+                    View song queue
+                  </li>
+                  <li className="inline-flex items-center text-gray-700 font-semibold mt-2">Now Playing tab</li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check disable />
+                    Dedicated Now Playing page
+                  </li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check disable />
+                    Dedicated playback controls
+                  </li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check disable />
+                    Progress bar
+                  </li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check disable />
+                    Precise playback seeking
+                  </li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check disable />
+                    Volume bar
+                  </li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check disable />
+                    Precise volume seeking
+                  </li>
+                  <li className="inline-flex items-center text-gray-700 font-semibold mt-2">Search tab</li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check />
+                    Tracks/album/playlists
+                  </li>
+                  <li className="inline-flex items-center text-gray-700 font-semibold mt-2">Library tab</li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check />
+                    Saved tracks/album/playlists
                   </li>
                 </ul>
               </div>
@@ -97,20 +103,20 @@ function Pricing() {
                   target="_blank"
                   href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
                 >
-                  <button className="bg-gray-500 hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl  w-[150px] text-white">
-                    Free To Use
+                  <button className="bg-[#5cbc8b] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl  w-[160px] text-white">
+                    Upgrade Now
                   </button>
                 </a>
               </div>
             </div>
 
-            <div className="custom-container">
+            <div className="custom-container border-2">
               <p className="uppercase text-sm font-medium text-gray-500">Pro</p>
 
-              <p className="mt-4 text-3xl text-gray-700 font-medium">
+              <p className="mt-4 text-4xl text-gray-700 font-medium">
                 <div className="price-wrapper">
                   {/* <div className="price-slash"></div> */}
-                  <div className="price font-bold">$29</div>
+                  <div className="price text-4xl font-bold">$9.99</div>
                 </div>
                 {/* <span className="price ml-3">$29</span> */}
               </p>
@@ -119,66 +125,70 @@ function Pricing() {
 
               <div className="mt-8">
                 <ul className="grid grid-cols-1 gap-4">
+                  <li className="inline-flex items-center text-gray-900 font-semibold">General Controls</li>
                   <li className="inline-flex items-center text-gray-600">
-                    <svg
-                      className="w-4 h-4 mr-2 fill-current text-green-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
-                      <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"></path>
-                    </svg>
-                    Search tracks
-                  </li>
-
-                  <li className="inline-flex items-center text-gray-600">
-                    <svg
-                      className="w-4 h-4 mr-2 fill-current text-green-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
-                      <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"></path>
-                    </svg>
-                    View song queue <span className="bg-gray-200 px-2 rounded-md ml-3">WIP</span>
+                    <Check />
+                    Play/pause track
                   </li>
                   <li className="inline-flex items-center text-gray-600">
-                    <svg
-                      className="w-4 h-4 mr-2 fill-current text-green-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
-                      <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"></path>
-                    </svg>
-                    Playback seeking <span className="bg-gray-200 px-2 rounded-md ml-3">WIP</span>
+                    <Check />
+                    Previous/next track
                   </li>
                   <li className="inline-flex items-center text-gray-600">
-                    <svg
-                      className="w-4 h-4 mr-2 fill-current text-green-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
-                      <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"></path>
-                    </svg>
-                    Control volume <span className="bg-gray-200 px-2 rounded-md ml-3">WIP</span>
+                    <Check />
+                    Toggle shuffle/repeat
                   </li>
                   <li className="inline-flex items-center text-gray-600">
-                    <svg
-                      className="w-4 h-4 mr-2 fill-current text-green-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
-                      <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"></path>
-                    </svg>
-                    Custom color scheme <span className="bg-gray-200 px-2 rounded-md ml-3">WIP</span>
+                    <Check />
+                    Start Radio
                   </li>
                   <li className="inline-flex items-center text-gray-600">
-                    <svg
-                      className="w-4 h-4 mr-2 fill-current text-green-400"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
-                      <path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM371.8 211.8l-128 128C238.3 345.3 231.2 348 224 348s-14.34-2.719-19.81-8.188l-64-64c-10.91-10.94-10.91-28.69 0-39.63c10.94-10.94 28.69-10.94 39.63 0L224 280.4l108.2-108.2c10.94-10.94 28.69-10.94 39.63 0C382.7 183.1 382.7 200.9 371.8 211.8z"></path>
-                    </svg>
-                    Unlimited usage
+                    <Check />
+                    Like current song
+                  </li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check />
+                    Song change notification
+                  </li>
+                  <li className="inline-flex items-center text-gray-900 font-semibold mt-2">Queue tab</li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check />
+                    View song queue
+                  </li>
+                  <li className="inline-flex items-center text-gray-900 font-semibold mt-2">Now Playing tab</li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check />
+                    Dedicated Now Playing page
+                  </li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check />
+                    Dedicated playback controls
+                  </li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check />
+                    Progress bar
+                  </li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check />
+                    Precise playback seeking
+                  </li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check />
+                    Volume bar
+                  </li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check />
+                    Precise volume seeking
+                  </li>
+                  <li className="inline-flex items-center text-gray-900 font-semibold mt-2">Search tab</li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check />
+                    Tracks/album/playlists
+                  </li>
+                  <li className="inline-flex items-center text-gray-900 font-semibold mt-2">Library tab</li>
+                  <li className="inline-flex items-center text-gray-600">
+                    <Check />
+                    Saved tracks/album/playlists
                   </li>
                 </ul>
               </div>
