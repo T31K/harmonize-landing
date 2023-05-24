@@ -19,7 +19,7 @@ function FAQ() {
           <div className="flex flex-wrap">
             <div className="w-full">
               <br />
-              <div className="faqcontent">
+              <div className="faqcontent w-[90%] !md:w-[80%]">
                 {faq.map((item, index) => {
                   return (
                     <div key={index}>
