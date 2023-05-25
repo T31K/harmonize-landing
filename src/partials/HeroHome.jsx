@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import NewHeroGif from '../images/hero1.gif';
+import NewHeroGif from '../images/new_hero.gif';
 // Example usage:
 
 import HeroGif from '../images/hero.gif';
