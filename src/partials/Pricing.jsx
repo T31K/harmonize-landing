@@ -114,7 +114,7 @@ function Pricing() {
                   </a>
                   <a
                     target="_blank"
-                    href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
+                    href="https://harmonize.lemonsqueezy.com/checkout/buy/5dacf4c1-f987-433a-bfea-4d9227bee55d?media=0"
                     className="bg-[#f0ac26] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl flex items-center whitespace-nowrap !text-sm text-center w-[100%] text-white justify-center"
                   >
                     Lemon Squeezy
@@ -218,7 +218,7 @@ function Pricing() {
                   </a>
                   <a
                     target="_blank"
-                    href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
+                    href="https://harmonize.lemonsqueezy.com/checkout/buy/5dacf4c1-f987-433a-bfea-4d9227bee55d?media=0"
                     className="bg-[#f0ac26] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl flex items-center whitespace-nowrap !text-sm text-center w-[100%] text-white justify-center"
                   >
                     Lemon Squeezy
@@ -342,7 +342,7 @@ function Pricing() {
                     </a>
                     <a
                       target="_blank"
-                      href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
+                      href="https://harmonize.lemonsqueezy.com/checkout/buy/5dacf4c1-f987-433a-bfea-4d9227bee55d?media=0"
                       className="bg-[#f0ac26] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl flex items-center whitespace-nowrap !text-sm text-center w-[100%] text-white justify-center"
                     >
                       Lemon Squeezy
@@ -444,7 +444,7 @@ function Pricing() {
                     </a>
                     <a
                       target="_blank"
-                      href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
+                      href="https://harmonize.lemonsqueezy.com/checkout/buy/5dacf4c1-f987-433a-bfea-4d9227bee55d?media=0"
                       className="bg-[#f0ac26] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl flex items-center whitespace-nowrap !text-sm text-center w-[100%] text-white justify-center"
                     >
                       Lemon Squeezy
