@@ -7,7 +7,7 @@ import Senja from './Senja.jsx';
 
 import IconBase from './IconBase';
 import { SiRust } from 'react-icons/si';
-import { GiTrophy } from 'react-icons/gi';
+import { BsFillBalloonHeartFill } from 'react-icons/bs';
 import { TbRadioactiveFilled, TbPackageOff } from 'react-icons/tb';
 import { MdScience } from 'react-icons/md';
 import {
@@ -24,9 +24,9 @@ function Testimonial() {
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <GiTrophy className="text-7xl hover:text-green-300 inline-block text-center mb-3" />
+            <BsFillBalloonHeartFill className="text-7xl hover:text-green-300 inline-block text-center mb-3" />
             <div className="flex items-center justify-center">
-              <h1 className="h2 mb-4">Testimonials </h1>
+              <h1 className="h2 mb-4">Why People Love Us </h1>
             </div>
             {/* <p className="text-xl text-gray-600">Our users love Harmonize. </p> */}
           </div>

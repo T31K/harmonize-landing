@@ -21,11 +21,11 @@ import Contact from './Contact.jsx';
 function Features() {
   return (
     <>
-      <FeatureTwo />
+      <Testimonial />
+      {/* <FeatureTwo /> */}
       <FeatureOne />
       <FeatureThree />
       <FeatureFour />
-      <Testimonial />
       <FAQ />
       <Pricing />
       <Contact />
