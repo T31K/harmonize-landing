@@ -23,12 +23,12 @@ function HeroHome() {
         console.log(currentCount);
         currentCount++;
         // Update state with the new count
-        setCount(currentCount); // Assuming you have a state variable 'setState' to update the count
+        setCount(currentCount); // Assuming you have a state variable 'setCount' to update the count
         setTimeout(incrementCount, 3); // Delay of 0.1 seconds (100 milliseconds)
       }
     };
 
-    incrementCount();
+    setTimeout(incrementCount, 2000); // Delay of 2 seconds (2000 milliseconds)
   };
 
   async function fetchUserCount() {
