@@ -25,7 +25,7 @@ function Features() {
       {/* <FeatureTwo /> */}
       <FeatureOne />
       <FeatureThree />
-      <FeatureFour />
+      {/* <FeatureFour /> */}
       <FAQ />
       <Pricing />
       <Contact />
