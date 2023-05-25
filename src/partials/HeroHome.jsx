@@ -49,9 +49,9 @@ function HeroHome() {
     }
   }
   return (
-    <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-[10rem]">
+    <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-[8rem]">
       <div className="flex flex-col items-center justify-between lg:flex-row">
-        <div className="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
+        <div className="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0 pl-[2rem]">
           <div className="max-w-xl mb-6 mt-[30px] md-mt-[0px]">
             <a
               href="https://www.producthunt.com/posts/harmonize?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-harmonize"
