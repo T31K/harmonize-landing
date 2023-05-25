@@ -107,7 +107,7 @@ function Pricing() {
                 <div className="flex gap-1">
                   <a
                     target="_blank"
-                    href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
+                    href="https://buy.stripe.com/5kA6qr7ZYftyb5efZ3"
                     className="bg-[#4f3bf8] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl flex items-center whitespace-nowrap !text-sm text-center w-[100%] text-white justify-center"
                   >
                     Stripe
@@ -211,7 +211,7 @@ function Pricing() {
                 <div className="flex gap-1">
                   <a
                     target="_blank"
-                    href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
+                    href="https://buy.stripe.com/5kA6qr7ZYftyb5efZ3"
                     className="bg-[#4f3bf8] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl flex items-center whitespace-nowrap !text-sm text-center w-[100%] text-white justify-center"
                   >
                     Stripe
@@ -335,7 +335,7 @@ function Pricing() {
                   <div className="flex gap-1">
                     <a
                       target="_blank"
-                      href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
+                      href="https://buy.stripe.com/5kA6qr7ZYftyb5efZ3"
                       className="bg-[#4f3bf8] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl flex items-center whitespace-nowrap !text-sm text-center w-[100%] text-white justify-center"
                     >
                       Stripe
@@ -437,7 +437,7 @@ function Pricing() {
                   <div className="flex gap-1">
                     <a
                       target="_blank"
-                      href="https://buy.stripe.com/4gw8yzcge4OUc9idQU"
+                      href="https://buy.stripe.com/5kA6qr7ZYftyb5efZ3"
                       className="bg-[#4f3bf8] hover:bg-gray-500 px-4 py-3 font-semibold rounded-xl flex items-center whitespace-nowrap !text-sm text-center w-[100%] text-white justify-center"
                     >
                       Stripe
