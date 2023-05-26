@@ -28,7 +28,7 @@ function Features() {
       {/* <FeatureFour /> */}
       <FAQ />
       <Pricing />
-      <Contact />
+      {/* <Contact /> */}
     </>
   );
 }
