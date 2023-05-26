@@ -20,7 +20,6 @@ function HeroHome() {
 
     const incrementCount = () => {
       if (currentCount <= count) {
-        console.log(currentCount);
         currentCount++;
         // Update state with the new count
         setCount(currentCount); // Assuming you have a state variable 'setCount' to update the count
@@ -28,7 +27,7 @@ function HeroHome() {
       }
     };
 
-    setTimeout(incrementCount, 2000); // Delay of 2 seconds (2000 milliseconds)
+    setTimeout(incrementCount, 1000); // Delay of 2 seconds (2000 milliseconds)
   };
 
   async function fetchUserCount() {
