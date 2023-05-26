@@ -26,8 +26,7 @@ function HeroHome() {
         setTimeout(incrementCount, 3); // Delay of 0.1 seconds (100 milliseconds)
       }
     };
-
-    setTimeout(incrementCount, 1000); // Delay of 2 seconds (2000 milliseconds)
+    incrementCount();
   };
 
   async function fetchUserCount() {
