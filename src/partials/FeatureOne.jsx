@@ -32,7 +32,7 @@ function FeatureOne() {
             <p className="text-xl text-gray-600">Your search for an alternative ends here.</p>
           </div>
 
-          <div className="flex justify-center gap-2 mb-[100px]">
+          <div className="hidden md:flex justify-center gap-2 mb-[100px]">
             <div className="flex items-center custom-container !py-1 !px-4 !rounded-xl gap-1">
               <RiMusic2Fill className="text-4xl inline-block text-center bg-gray-200 p-2  rounded-xl" />
               <div>Dedicated Music Controls</div>
