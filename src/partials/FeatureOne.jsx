@@ -27,7 +27,7 @@ function FeatureOne() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <MdAutoGraph className="text-7xl inline-block text-center mb-3" />
             <div className="flex justify-center">
-              <h1 className="h2 mb-4 mr-5 ">Why not Raycast or Alfred? </h1>
+              <h1 className="h2 mb-4 mr-5 ">Why not <br className="block md:hidden" /> Raycast or Alfred? </h1>
             </div>
             <p className="text-xl text-gray-600">Your search for an alternative ends here.</p>
           </div>
