@@ -2,10 +2,9 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import NewHeroGif from '../images/new_hero.gif';
-// Example usage:
-
 import HeroGif from '../images/hero.gif';
 import { MdDownloadForOffline, MdRocketLaunch } from 'react-icons/md';
+
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
   const [searchVal, setSearchVal] = useState('');
@@ -23,7 +22,7 @@ function HeroHome() {
         currentCount++;
         // Update state with the new count
         setCount(currentCount); // Assuming you have a state variable 'setCount' to update the count
-        setTimeout(incrementCount, 3); // Delay of 0.1 seconds (100 milliseconds)
+        setTimeout(incrementCount, 1.8); // Delay of 0.1 seconds (100 milliseconds)
       }
     };
     incrementCount();
@@ -80,7 +79,7 @@ function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay="100"
             >
-              A spotlight-like app to control Spotify.
+              Control your mysic from anywhere, at anytime.
             </p>
           </div>
           <div className="flex justify-center md:justify-start">
