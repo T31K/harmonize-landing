@@ -75,11 +75,11 @@ function HeroHome() {
               music controls
             </h1>
             <p
-              className="text-xl text-gray-600 mb-8 ml-[-5px]"
+              className="text-xl text-gray-600 text-center md:text-left mb-8 ml-[-5px]"
               data-aos="zoom-y-out"
               data-aos-delay="100"
             >
-              Control your mysic from anywhere, at anytime.
+              Control your music from anywhere, <br clasName="visible md:hidden" /> at anytime.
             </p>
           </div>
           <div className="flex justify-center md:justify-start">
