@@ -122,7 +122,7 @@ function HeroHome() {
             </div>
           </div>
           <div className="flex justify-center md:justify-start mt-5">
-            <div className="font-semibold mx-3">{count} downloads</div>
+            <div className="font-semibold mx-3">{count} happy users</div>
 
             <img
               src="https://senjaio.b-cdn.net/public/media/OPzSPl9cbk1PRFhDVwWrd7ey.jpeg?width=100&height=100"
