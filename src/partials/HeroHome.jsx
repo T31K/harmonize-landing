@@ -10,15 +10,11 @@ function HeroHome() {
   const [searchVal, setSearchVal] = useState('');
   const [count, setCount] = useState(0);
 
-  useEffect(() => {
-    fetchUserCount();
-  }, []);
-
   const handleSetCount = (count) => {
     let currentCount = 0;
 
     const incrementCount = () => {
-      if (currentCount <= count) {
+      if (currentCount <= 180) {
         currentCount++;
         // Update state with the new count
         setCount(currentCount); // Assuming you have a state variable 'setCount' to update the count
@@ -28,23 +24,6 @@ function HeroHome() {
     incrementCount();
   };
 
-  async function fetchUserCount() {
-    const token = process.env.LANDING_COUNT_TOKEN;
-    try {
-      const res = await axios.get('https://api.getharmonize.app/landing_download_count', {
-        headers: {
-          Authorization: token,
-        },
-        params: {
-          token: token,
-        },
-      });
-      const { count } = res.data;
-      if (count) handleSetCount(count);
-    } catch (error) {
-      console.error('Error fetching user count:', error.response.data.error);
-    }
-  }
   return (
     <section className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-[8rem]">
       <div className="flex flex-col items-center justify-between lg:flex-row">
