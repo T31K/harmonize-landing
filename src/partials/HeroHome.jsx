@@ -10,7 +10,11 @@ function HeroHome() {
   const [searchVal, setSearchVal] = useState('');
   const [count, setCount] = useState(0);
 
-  const handleSetCount = (count) => {
+  useEffect(() => {
+    handleSetCount();
+  }, []);
+
+  const handleSetCount = () => {
     let currentCount = 0;
 
     const incrementCount = () => {
