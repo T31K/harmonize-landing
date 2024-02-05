@@ -22,7 +22,7 @@ export const faq = [
   {
     question: 'How much does the premium version cost?',
     answer: [
-      'The premium version is available for a one-time payment of $9.99, granting access to premium features. ',
+      'The premium version is available for a one-time payment of $19.99, granting access to premium features. ',
       'This includes one year of free updates to ensure continuous enhancements and improvements.',
     ],
   },

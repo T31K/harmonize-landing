@@ -129,7 +129,7 @@ function Pricing() {
               <p className="mt-4 text-4xl text-gray-700 font-medium">
                 <div className="price-wrapper">
                   {/* <div className="price-slash"></div> */}
-                  <div className="price text-4xl font-bold">$9.99</div>
+                  <div className="price text-4xl font-bold">$19.99</div>
                 </div>
                 {/* <span className="price ml-3">$29</span> */}
               </p>
@@ -355,7 +355,7 @@ function Pricing() {
                 <p className="mt-4 text-4xl text-gray-700 font-medium">
                   <div className="price-wrapper">
                     {/* <div className="price-slash"></div> */}
-                    <div className="price text-4xl font-bold">$9.99</div>
+                    <div className="price text-4xl font-bold">$19.99</div>
                   </div>
                   {/* <span className="price ml-3">$29</span> */}
                 </p>
