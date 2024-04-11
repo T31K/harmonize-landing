@@ -73,25 +73,24 @@ function Footer() {
             </ul>
           </div>
           <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Partners</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
               <li class="mb-4">
                 <Link
-                  to="/download"
-                  class="hover:text-green-500"
-                >
-                  macOS
-                </Link>
-              </li>
-              <li class="mb-4">
-                <Link
-                  to="/download"
+                  to="https://calorieasy.app"
                   target="_blank"
                   class="hover:text-green-500"
                 >
-                  Linux
+                  Calorieasy
+                </Link>
+                <Link
+                  to="https://ourbabyai.com/"
+                  class="hover:text-green-500"
+                >
+                  Our Baby AI
                 </Link>
               </li>
+              <li class="mb-4"></li>
             </ul>
           </div>
         </div>
