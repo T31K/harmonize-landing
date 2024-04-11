@@ -83,6 +83,8 @@ function Footer() {
                 >
                   Calorieasy
                 </Link>
+              </li>{' '}
+              <li class="mb-4">
                 <Link
                   to="https://ourbabyai.com/"
                   class="hover:text-green-500"
@@ -90,7 +92,6 @@ function Footer() {
                   Our Baby AI
                 </Link>
               </li>
-              <li class="mb-4"></li>
             </ul>
           </div>
         </div>
