@@ -86,10 +86,58 @@ function Footer() {
               </li>{' '}
               <li class="mb-4">
                 <Link
-                  to="https://ourbabyai.com/"
+                  to="https://t31k.com/"
                   class="hover:text-green-500"
                 >
-                  Our Baby AI
+                  T31K
+                </Link>
+              </li>
+              <li class="mb-4">
+                <Link
+                  to="https://earthinterior.sg/"
+                  class="hover:text-green-500"
+                >
+                  Earth Interior Design
+                </Link>
+              </li>
+              <li class="mb-4">
+                <Link
+                  to="https://hackapura.com/"
+                  class="hover:text-green-500"
+                >
+                  Hackapura
+                </Link>
+              </li>
+                <li class="mb-4">
+                <Link
+                  to="https://hackalumpur.com/"
+                  class="hover:text-green-500"
+                >
+                  Hackalumpur
+                </Link>
+              </li>
+              <li class="mb-4">
+                <Link
+                  to="https://taroternity.com/"
+                  class="hover:text-green-500"
+                >
+                  Taroternity
+                </Link>
+              </li>
+              <li class="mb-4">
+                <Link
+                  to="https://clemanteemusic.com/"
+                  class="hover:text-green-500"
+                >
+                  Clemantee Music
+                </Link>
+              </li>
+              <li class="mb-4">
+                <Link
+                  to="https://mirabelledecoupage.com/"
+                  class="hover:text-green-500"
+                >
+                  Mirabellé Decoupage
                 </Link>
               </li>
             </ul>
