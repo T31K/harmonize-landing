@@ -140,6 +140,14 @@ function Footer() {
                   Mirabellé Decoupage
                 </Link>
               </li>
+              <li class="mb-4">
+                <Link
+                  to="https://fixitjerry.com/"
+                  class="hover:text-green-500"
+                >
+                  Fix It Jerry
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
